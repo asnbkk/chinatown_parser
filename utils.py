@@ -1,3 +1,5 @@
+import random
+
 headers_list = [
 # Firefox 77 Mac
 {
@@ -49,3 +51,6 @@ headers_list = [
 "Accept-Language": "en-US,en;q=0.9"
 }
 ]
+
+def get_random_header():
+    return random.choice(headers_list) 

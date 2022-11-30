@@ -1,15 +1,15 @@
 import requests
 import json
 import random
-from utils import headers_list
+from utils import get_random_header
 
 def get_prod_by_link(url):
-    header = random.choice(headers_list) 
+    
     session = requests.Session()
     response = session.get(
             url, 
             verify=False, 
-            headers=header).text
+            headers=get_random_header()).text
     body = response.split('<script>')[6]
     start, end = 'window.__INIT_DATA=', '</script>'
     res = json.loads(body.split(start)[-1].split(end)[0])
