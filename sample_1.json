@@ -3,9 +3,9 @@
         "1081181309884": {
             "componentType": "@ali/tdmod-pc-od-dsc-order",
             "data": {
-                "businessType": "slsj",
+                "businessType": "default",
                 "channelType": "dsc",
-                "marketScene": "sjyx",
+                "marketScene": "default",
                 "isPicPrivate": false,
                 "isPricePrivate": false,
                 "operateItems": [
@@ -24,26 +24,17 @@
                         "data": {},
                         "name": "加采购车",
                         "subName": ""
-                    },
-                    {
-                        "operateType": "CROSS_BORDER",
-                        "disType": "TEXT",
-                        "imgUrl": "",
-                        "data": {},
-                        "name": "跨境铺货",
-                        "subName": ""
                     }
                 ],
                 "isSkuOffer": true,
                 "isAddCartPromotion": false,
                 "remindSceneKey": "",
                 "remindText": "",
-                "pstatus": "onsale",
-                "promotionStatus": "RUNNING",
+                "pstatus": "remind",
                 "freightInfo": {
                     "officialLogistics": false,
-                    "subTemplateId": 15580227,
-                    "unitWeight": 0.1,
+                    "subTemplateId": 16406032,
+                    "unitWeight": 0,
                     "queryFlag": true
                 }
             }
@@ -52,56 +43,22 @@
             "componentType": "@ali/tdmod-od-pc-attribute-new",
             "data": [
                 {
-                    "fid": 346,
-                    "name": "产地",
-                    "value": "浙江省",
+                    "fid": 2176,
+                    "name": "品牌",
+                    "value": "善如",
                     "values": [
-                        "浙江省"
+                        "善如"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
                     "lectotype": false
                 },
                 {
-                    "fid": 1626126,
-                    "name": "玩具材质",
-                    "value": "硅胶",
+                    "fid": 3151,
+                    "name": "型号",
+                    "value": "N5095",
                     "values": [
-                        "硅胶"
-                    ],
-                    "isSpecial": false,
-                    "outputType": 0,
-                    "lectotype": false
-                },
-                {
-                    "fid": 173024996,
-                    "name": "是否外贸专供",
-                    "value": "是",
-                    "values": [
-                        "是"
-                    ],
-                    "isSpecial": false,
-                    "outputType": 0,
-                    "lectotype": false
-                },
-                {
-                    "fid": 2583,
-                    "name": "适用年龄",
-                    "value": "儿童（3-6岁）,青年（15-35岁）",
-                    "values": [
-                        "儿童（3-6岁）",
-                        "青年（15-35岁）"
-                    ],
-                    "isSpecial": false,
-                    "outputType": 0,
-                    "lectotype": false
-                },
-                {
-                    "fid": 100020141,
-                    "name": "商品3C认证码",
-                    "value": "无",
-                    "values": [
-                        "无"
+                        "N5095"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
@@ -110,20 +67,9 @@
                 {
                     "fid": 1398,
                     "name": "货号",
-                    "value": "T-03113X",
+                    "value": "N5095-1",
                     "values": [
-                        "T-03113X"
-                    ],
-                    "isSpecial": false,
-                    "outputType": 0,
-                    "lectotype": false
-                },
-                {
-                    "fid": 2176,
-                    "name": "品牌",
-                    "value": "智拓",
-                    "values": [
-                        "智拓"
+                        "N5095-1"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
@@ -132,137 +78,309 @@
                 {
                     "fid": 7119,
                     "name": "上市时间",
-                    "value": "2022年",
+                    "value": "2022",
                     "values": [
-                        "2022年"
+                        "2022"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
                     "lectotype": false
                 },
                 {
-                    "fid": 100018148,
-                    "name": "动漫角色",
-                    "value": "无",
+                    "fid": 100000691,
+                    "name": "货源类别",
+                    "value": "现货",
                     "values": [
-                        "无"
+                        "现货"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
                     "lectotype": false
                 },
                 {
-                    "fid": 7101,
-                    "name": "适用人群",
-                    "value": "不限",
+                    "fid": 7619,
+                    "name": "品牌地区",
+                    "value": "国产",
                     "values": [
-                        "不限"
+                        "国产"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
                     "lectotype": false
                 },
                 {
-                    "fid": 21292,
-                    "name": "包装",
-                    "value": "opp",
+                    "fid": 9271,
+                    "name": "产品定位",
+                    "value": "轻薄便携本",
                     "values": [
-                        "opp"
+                        "轻薄便携本"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
                     "lectotype": false
                 },
                 {
-                    "fid": 7869,
-                    "name": "是否进口",
-                    "value": "否",
+                    "fid": 17,
+                    "name": "CPU类型",
+                    "value": "N5095",
                     "values": [
-                        "否"
+                        "N5095"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
                     "lectotype": false
                 },
                 {
-                    "fid": 138662111,
-                    "name": "能力培养",
-                    "value": "视觉,智力开发,动手动脑,抓握,手眼协调,其他能力培养,互动玩具,兴趣培养",
+                    "fid": 18,
+                    "unit": "GHz",
+                    "name": "CPU主频",
+                    "value": "2.0",
                     "values": [
-                        "视觉",
-                        "智力开发",
-                        "动手动脑",
-                        "抓握",
-                        "手眼协调",
-                        "其他能力培养",
-                        "互动玩具",
-                        "兴趣培养"
+                        "2.0"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
                     "lectotype": false
                 },
                 {
-                    "fid": 149980451,
-                    "name": "是否有动漫形象",
-                    "value": "否",
+                    "fid": 1216,
+                    "name": "光软驱位置",
+                    "value": "无光驱",
                     "values": [
-                        "否"
+                        "无光驱"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
                     "lectotype": false
                 },
                 {
-                    "fid": 159484581,
-                    "name": "原产国/地区",
-                    "value": "义乌",
+                    "fid": 2204,
+                    "unit": "英寸",
+                    "name": "屏幕尺寸",
+                    "value": "15.6英寸",
                     "values": [
-                        "义乌"
+                        "15.6英寸"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
                     "lectotype": false
                 },
                 {
-                    "fid": 182282223,
-                    "name": "是否跨境出口专供货源",
-                    "value": "是",
+                    "fid": 7167,
+                    "name": "显卡",
+                    "value": "集成显卡",
                     "values": [
-                        "是"
+                        "集成显卡"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
                     "lectotype": false
                 },
                 {
-                    "fid": 152968864,
-                    "name": "专利号或版权登记证号",
-                    "value": "无",
+                    "fid": 933,
+                    "name": "分辨率",
+                    "value": "全高清（1920x1080）",
                     "values": [
-                        "无"
+                        "全高清（1920x1080）"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
                     "lectotype": false
                 },
                 {
-                    "fid": 152994712,
-                    "name": "专利及著作权",
-                    "value": "无",
+                    "fid": 20573,
+                    "name": "操作系统",
+                    "value": "win10",
                     "values": [
-                        "无"
+                        "win10"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
                     "lectotype": false
                 },
                 {
-                    "fid": 158314989,
-                    "name": "专利及著作权申请时间",
-                    "value": "无",
+                    "fid": 14543205,
+                    "name": "是否触摸屏",
+                    "value": "非触控",
                     "values": [
-                        "无"
+                        "非触控"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 1329,
+                    "name": "厚度",
+                    "value": "便携轻薄（17.5mm-21mm）",
+                    "values": [
+                        "便携轻薄（17.5mm-21mm）"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 7680,
+                    "name": "续航时间",
+                    "value": "5小时以下",
+                    "values": [
+                        "5小时以下"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 357,
+                    "name": "产品尺寸",
+                    "value": "36*23.5*1.37cm",
+                    "values": [
+                        "36*23.5*1.37cm"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 3572,
+                    "unit": "kg",
+                    "name": "重量",
+                    "value": "1.5-2.0KG",
+                    "values": [
+                        "1.5-2.0KG"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 44,
+                    "name": "OEM",
+                    "value": "可OEM",
+                    "values": [
+                        "可OEM"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 100017842,
+                    "name": "最快出货时间",
+                    "value": "1-3天",
+                    "values": [
+                        "1-3天"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 132310740,
+                    "name": "是否支持代理加盟",
+                    "value": "不支持",
+                    "values": [
+                        "不支持"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 100001270,
+                    "name": "售后类型",
+                    "value": "店铺三包",
+                    "values": [
+                        "店铺三包"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 3548,
+                    "unit": "年",
+                    "name": "质保",
+                    "value": "1年",
+                    "values": [
+                        "1年"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 100040752,
+                    "name": "发票",
+                    "value": "不提供发票",
+                    "values": [
+                        "不提供发票"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 100273971,
+                    "name": "包装清单",
+                    "value": "笔记本电脑，充电器，礼品",
+                    "values": [
+                        "笔记本电脑，充电器，礼品"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 125790829,
+                    "name": "3C证书编号",
+                    "value": "2019010902230640",
+                    "values": [
+                        "2019010902230640"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 3070,
+                    "name": "显存容量",
+                    "value": "集显",
+                    "values": [
+                        "集显"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 3216,
+                    "name": "颜色",
+                    "value": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色,J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色",
+                    "values": [
+                        "N5095-带指纹带背光-A壳金属-带RJ45接口-银色",
+                        "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 2060,
+                    "name": "内存容量",
+                    "value": "16G内存+512G固态硬盘,16G内存+256G固态硬盘,16G内存+1024G固态硬盘,16G内存+无硬盘,12G内存+无硬盘,12G内存+128G固态硬盘,12G内存+256G固态硬盘,12G内存+512G固态硬盘,12G内存+1024G固态硬盘,8G内存+无硬盘",
+                    "values": [
+                        "16G内存+512G固态硬盘",
+                        "16G内存+256G固态硬盘",
+                        "16G内存+1024G固态硬盘",
+                        "16G内存+无硬盘",
+                        "12G内存+无硬盘",
+                        "12G内存+128G固态硬盘",
+                        "12G内存+256G固态硬盘",
+                        "12G内存+512G固态硬盘",
+                        "12G内存+1024G固态硬盘",
+                        "8G内存+无硬盘"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
@@ -271,9 +389,14 @@
                 {
                     "fid": 182318189,
                     "name": "主要下游平台",
-                    "value": "速卖通",
+                    "value": "ebay,亚马逊,wish,速卖通,独立站,LAZADA",
                     "values": [
-                        "速卖通"
+                        "ebay",
+                        "亚马逊",
+                        "wish",
+                        "速卖通",
+                        "独立站",
+                        "LAZADA"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
@@ -308,30 +431,8 @@
                     "lectotype": false
                 },
                 {
-                    "fid": 1477,
-                    "name": "加工方式",
-                    "value": "无",
-                    "values": [
-                        "无"
-                    ],
-                    "isSpecial": false,
-                    "outputType": 0,
-                    "lectotype": false
-                },
-                {
-                    "fid": 100000729,
-                    "name": "加工定制",
-                    "value": "否",
-                    "values": [
-                        "否"
-                    ],
-                    "isSpecial": false,
-                    "outputType": 0,
-                    "lectotype": false
-                },
-                {
-                    "fid": 11683430,
-                    "name": "是否有导购视频",
+                    "fid": 182282223,
+                    "name": "是否跨境出口专供货源",
                     "value": "是",
                     "values": [
                         "是"
@@ -341,12 +442,22 @@
                     "lectotype": false
                 },
                 {
-                    "fid": 1234,
-                    "name": "规格",
-                    "value": "单色,混色",
+                    "fid": 14294914,
+                    "name": "能效等级",
+                    "value": "无",
                     "values": [
-                        "单色",
-                        "混色"
+                        "无"
+                    ],
+                    "isSpecial": false,
+                    "outputType": 0,
+                    "lectotype": false
+                },
+                {
+                    "fid": 143220385,
+                    "name": "是否专利货源",
+                    "value": "否",
+                    "values": [
+                        "否"
                     ],
                     "isSpecial": false,
                     "outputType": 0,
@@ -357,11 +468,12 @@
         "1081181309894": {
             "componentType": "@ali/tdmod-od-pc-offer-description",
             "data": {
-                "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss1974977584117efc50170d3def",
+                "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss2930777950e1f0538b7efb7fa4",
+                "detailVideoId": "357763518073",
                 "bigPromotionBanner": {
                     "hasBigPromotion": false,
                     "bannerUrl": "",
-                    "bannerJumpUrl": "https://shop6i88195f90534.1688.com/page/activity.htm?offerId=669775995141#promotion"
+                    "bannerJumpUrl": "https://shop285157971m405.1688.com/page/activity.htm?offerId=683253049962#promotion"
                 }
             }
         },
@@ -369,51 +481,56 @@
             "componentType": "@ali/tdmod-od-pc-offer-logistics",
             "trackInfo": {},
             "data": {
-                "location": "浙江省 金华市",
-                "totalCost": 3.0,
-                "templateId": 15580227,
+                "location": "广东省 深圳市",
+                "totalCost": 0.0,
+                "templateId": 16406032,
                 "deliveryFee": "TEMPLATED",
                 "freeDeliverFee": false,
                 "isShowLogistics": true,
                 "text": "",
                 "startAmount": 2,
-                "unitWeight": 0.1,
-                "unit": "个",
-                "price": "1.23",
+                "unitWeight": 0,
+                "unit": "台",
+                "price": "1058.00",
                 "volume": 0,
                 "freightInfo": {
-                    "unitWeight": 0.1,
+                    "unitWeight": 0,
                     "freeEndAmount": -1,
-                    "deliveryLimit": 3,
+                    "deliveryLimit": 2,
                     "officialLogistics": false,
-                    "subTemplateId": 15580227,
+                    "subTemplateId": 16406032,
+                    "logisticsText": "预计付款后48小时内发货",
                     "deliveryFee": {
                         "name": "TEMPLATED"
                     },
                     "freeDeliverFee": false,
-                    "location": "浙江省 金华市",
-                    "locationCode": "33016008",
-                    "totalCost": 3.0
+                    "location": "广东省 深圳市",
+                    "locationCode": "33816027",
+                    "totalCost": 0.0
                 },
                 "officialLogistics": false,
-                "isSkuTradeSupported": false,
-                "sendAddressCode": "33016008",
+                "isSkuTradeSupported": true,
+                "sendAddressCode": "33816027",
                 "targetLocation": "选择配送地址为您计算运费及送达时间",
                 "protectionInfos": [
-                    {
-                        "serviceLink": "https://page.1688.com/html/yunfeixianmj.html",
-                        "serviceCode": "yfx_s",
-                        "description": "卖家为您购买的商品投保退货运费险",
-                        "serviceName": "运费险",
-                        "logoUrl_64_64": "https://cbu01.alicdn.com/cms/upload/2016/504/795/2597405_532208266.gif",
-                        "logoUrl_16_16": "https://cbu01.alicdn.com/cms/upload/2016/504/795/2597405_532208266.gif"
-                    },
                     {
                         "serviceLink": "https://rongzi.1688.com/creditbuy/index.htm?role=buyer&tracelog=ces_offerdetail_wkt",
                         "description": "诚e赊是平台专属的免费账期工具，先下单后还款。",
                         "serviceName": "38天免费赊账",
                         "logoUrl_64_64": "https://cbu01.alicdn.com/cms/upload/2015/188/805/2508881_1265251585.png",
                         "logoUrl_16_16": "https://cbu01.alicdn.com/cms/upload/2015/188/805/2508881_1265251585.png"
+                    },
+                    {
+                        "longDescription": "卖家在承诺买家保障服务的基础上，向买家提供“48小时发货延必赔”的服务。在买家通过支付宝担保交易完成付款或通过货到付款下单成功后，卖家承诺在买家支付成功起48小时内发货。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。",
+                        "serviceLink": "https://show.1688.com/vip/other/1bpmrma4.html?spm=a2637k.pagelist.0.0.741a370awJoKwS&__pageId__=227845&cms_id=227845",
+                        "serviceCode": "ssbxsfh",
+                        "description": "该商家已开通48小时发货延必赔服务，承诺在支付成功起48小时内为您发货，如商家未能如约发货，您可在此笔订单中申请违约赔付。",
+                        "serviceName": "48小时发货",
+                        "type": "protect",
+                        "logoUrl": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+                        "logoUrl_64_64": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+                        "logoUrl_16_16": "https://cbu01.alicdn.com/cms/upload/2015/177/505/2505771_1964054271.png",
+                        "agreeDeliveryHours": 48
                     },
                     {
                         "longDescription": "“极速退款” 是平台的极致退款体验，在符合一定的退款申请时效和退款金额范围内，可享受0秒退款服务或商家2小时响应退款的服务。",
@@ -428,61 +545,16 @@
                         "buyerDescription": "极速退款"
                     },
                     {
-                        "longDescription": "卖家在承诺买家保障服务的基础上，自愿选择向买家提供“7天包换”服务。在买家使用在线方式订购支持“7天包换 ”服务的商品后，卖家承诺在买家签收货物后的7天内，对无人为损坏的商品提供更换服务。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。",
-                        "serviceLink": "https://page.1688.com/buyerprotection/buyer.html",
-                        "serviceCode": "qtbh",
-                        "description": "您可以在签收货物后七（7）天内，在非因质量问题，且无人为损坏，不影响二次销售的情形下免费更换与所需更换商品除尺码和颜色外其他属性一致的等值新品。在换货过程中，所需运费均由买家自行承担，但因质量问题而产生运费除外。",
-                        "serviceName": "7天包换",
-                        "type": "protect",
-                        "logoUrl": "https://cbu01.alicdn.com/cms/upload/2015/710/615/2516017_1964054271.png",
-                        "logoUrl_64_64": "https://cbu01.alicdn.com/cms/upload/2015/710/615/2516017_1964054271.png",
-                        "logoUrl_16_16": "https://cbu01.alicdn.com/cms/upload/2015/377/805/2508773_1964054271.png"
-                    },
-                    {
-                        "longDescription": "如卖家未能在指定期间内提供相关证据材料，或相关证据材料明显无效，阿里巴巴判定买家赔付申请成立，卖家同意按照本协议之约定向买家赔偿其受到的损失，赔偿金额为买家已实际支付的短少产品价款（仅为配件短少时亦应就整套产品价款进行赔偿）。此等情形下，阿里巴巴有权动用卖家的保证金或通知支付宝公司自卖家的支付宝账户直接扣除相应金额款项先行赔付给买家。",
-                        "serviceLink": "https://show.1688.com/dacu/common/rcxhdshbpfwbzsmgD.html?pageId=22017&cms_id=22017",
-                        "serviceCode": "shbp",
-                        "description": "卖家向买家承诺，在买家通过阿里巴巴中国站使用在线方式订购卖家出售的产品，卖家发货后，如买家收到的货品同订购数量或重量同交易约定不一致，产生短少的情况时，卖家同意根据买家选择，采取一定方案对买家进行补偿。",
-                        "serviceName": "少货必赔",
-                        "type": "protect",
-                        "logoUrl": "https://img.alicdn.com/tfs/TB1DCg8CVT7gK0jSZFpXXaTkpXa-64-64.png",
-                        "logoUrl_64_64": "https://img.alicdn.com/tfs/TB1DCg8CVT7gK0jSZFpXXaTkpXa-64-64.png",
-                        "logoUrl_16_16": "https://img.alicdn.com/tfs/TB1b0VgDlr0gK0jSZFnXXbRRXXa-16-16.png"
-                    },
-                    {
-                        "longDescription": "卖家在承诺买家保障服务的基础上，自愿选择向买家提供“破损包赔”服务。在买家使用在线方式订购卖家出售的产品后，如产品存在破损，卖家承诺在保障时效内免费向买家补寄一次，如补寄后买家依旧无法获得完好的产品，卖家需向买家提供破损产品的退货退款服务。",
-                        "serviceLink": "https://show.1688.com/dacu/common/rcxhdpsbphhdbpbzfwsmK3.html?pageId=22019&cms_id=22019",
-                        "serviceCode": "psbj",
-                        "description": "该卖家已开通破损包赔服务，承诺若商品在运输途中出现破损，将为您补寄，补寄运费由卖家承担。",
-                        "serviceName": "破损包赔",
-                        "type": "protect",
-                        "logoUrl": "https://cbu01.alicdn.com/cms/upload/2015/308/705/2507803_1964054271.png",
-                        "logoUrl_64_64": "https://cbu01.alicdn.com/cms/upload/2015/308/705/2507803_1964054271.png",
-                        "logoUrl_16_16": "https://cbu01.alicdn.com/cms/upload/2015/020/615/2516020_1964054271.png"
-                    },
-                    {
-                        "longDescription": "卖家在承诺买家保障服务的基础上，向买家提供“72小时发货延必赔”的服务。在买家通过支付宝担保交易完成付款或通过货到付款下单成功后，卖家承诺在买家支付成功起72小时内发货。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。",
-                        "serviceLink": "https://show.1688.com/vip/other/1bpmrma4.html?spm=a2637k.pagelist.0.0.741a370awJoKwS&__pageId__=227845&cms_id=227845",
-                        "serviceCode": "qsexsfh",
-                        "description": "该商家已开通72小时发货延必赔服务，承诺在支付成功起72小时内为您发货，如商家未能如约发货，您可在此笔订单中申请违约赔付。",
-                        "serviceName": "72小时发货",
-                        "type": "protect",
-                        "logoUrl": "https://cbu01.alicdn.com/cms/upload/2015/277/505/2505772_1964054271.png",
-                        "logoUrl_64_64": "https://cbu01.alicdn.com/cms/upload/2015/277/505/2505772_1964054271.png",
-                        "logoUrl_16_16": "https://cbu01.alicdn.com/cms/upload/2015/568/405/2504865_1964054271.png",
-                        "agreeDeliveryHours": 72
-                    },
-                    {
                         "longDescription": "本产品支持七天无理由退货",
                         "serviceCode": "std_qtth",
                         "description": "本产品支持七天无理由退货",
                         "serviceName": "七天无理由退货"
                     }
                 ],
-                "postFeeValue": 3.0,
+                "postFeeValue": 0.0,
                 "postFree": false,
                 "freeEndAmount": -1,
-                "deliveryLimitText": "付款成功后3天内安排发货"
+                "deliveryLimitText": "预计付款后48小时内发货"
             }
         },
         "1081181309812": {
@@ -493,12 +565,12 @@
                     {
                         "sceneKey": "order",
                         "sceneName": "批发",
-                        "url": "https://detail.1688.com/offer/669775995141.html?sk=order"
+                        "url": "https://detail.1688.com/offer/683253049962.html?sk=order"
                     },
                     {
                         "sceneKey": "consign",
-                        "sceneName": "一件代发",
-                        "url": "https://detail.1688.com/offer/669775995141.html?sk=consign"
+                        "sceneName": "代发",
+                        "url": "https://detail.1688.com/offer/683253049962.html?sk=consign"
                     }
                 ],
                 "selectedScene": {
@@ -506,8 +578,8 @@
                     "sceneName": "批发"
                 },
                 "coord": {
-                    "business": "slsj",
-                    "scene": "sjyx",
+                    "business": "default",
+                    "scene": "default",
                     "useCase": "1688_pc_detail",
                     "atmosphere": "normal",
                     "role": "defaultBuyer",
@@ -517,24 +589,22 @@
                     "channel": "dsc"
                 },
                 "handleProcessingTab": false,
-                "offerId": 669775995141,
-                "memberId": "b2b-2212313476535b6516"
+                "offerId": 683253049962,
+                "memberId": "b2b-2213969359058c357a"
             }
         },
         "1081181309095": {
             "componentType": "@ali/tdmod-od-pc-offer-title",
             "data": {
                 "tagList": [],
-                "title": "工厂现货 魔法吸盘 解压吸盘squidopop it fidget toy squido pop",
-                "saleNum": "1100+",
-                "unit": "个",
+                "title": "15.6寸笔记本电脑N5095金属外壳带网线接口现货便宜外贸手提电脑",
+                "saleNum": "<10",
+                "unit": "台",
                 "isBestOffer": false,
                 "officialActivityIcon": "",
-                "labels": [
-                    "一件代发"
-                ],
+                "labels": [],
                 "isShowEdit": false,
-                "editUrl": "https://offer.1688.com/offer/post/fillProductInfo.htm?operator=edit&offerId=669775995141&pageSrc=fusion&frontVersion=2017"
+                "editUrl": "https://offer.1688.com/offer/post/fillProductInfo.htm?operator=edit&offerId=683253049962&pageSrc=fusion&frontVersion=2017"
             }
         },
         "10811813029416": {
@@ -544,26 +614,26 @@
             "componentType": "@ali/tdmod-pc-od-main-pic",
             "data": {
                 "offerImgList": [
-                    "https://cbu01.alicdn.com/img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.jpg",
-                    "https://cbu01.alicdn.com/img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.jpg",
-                    "https://cbu01.alicdn.com/img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.jpg",
-                    "https://cbu01.alicdn.com/img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.jpg",
-                    "https://cbu01.alicdn.com/img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.jpg",
-                    "https://cbu01.alicdn.com/img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.jpg",
-                    "https://cbu01.alicdn.com/img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.jpg"
+                    "https://cbu01.alicdn.com/img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.jpg",
+                    "https://cbu01.alicdn.com/img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.jpg",
+                    "https://cbu01.alicdn.com/img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.jpg",
+                    "https://cbu01.alicdn.com/img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.jpg",
+                    "https://cbu01.alicdn.com/img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.jpg",
+                    "https://cbu01.alicdn.com/img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.jpg",
+                    "https://cbu01.alicdn.com/img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.jpg"
                 ],
                 "video": {
-                    "coverUrl": "https://img.alicdn.com/imgextra/i1/6000000002107/O1CN01Xw1jYt1RR3FWsTIBK_!!6000000002107-0-tbvideo.jpg",
-                    "videoId": 349777739670,
+                    "coverUrl": "https://img.alicdn.com/imgextra/i2/6000000005796/O1CN01tZZWZu1sgcMzX4OGq_!!6000000005796-0-tbvideo.jpg",
+                    "videoId": 371717106478,
                     "state": 6,
-                    "title": "魔法吸盘",
-                    "videoUrl": "https://cloud.video.taobao.com/play/u/2212313476535/p/2/e/6/t/1/349777739670.mp4"
+                    "title": "LOL游戏视频",
+                    "videoUrl": "https://cloud.video.taobao.com/play/u/2213969359058/p/2/e/6/t/1/371717106478.mp4"
                 },
                 "canShowAllImage": true,
                 "isBestOffer": false,
                 "isBestOfferUrl": "https://img.alicdn.com/tfs/TB1ZwSvqG6qK1RjSZFmXXX0PFXa-100-100.png",
-                "offerId": 669775995141,
-                "subject": "工厂现货 魔法吸盘 解压吸盘squidopop it fidget toy squido pop"
+                "offerId": 683253049962,
+                "subject": "15.6寸笔记本电脑N5095金属外壳带网线接口现货便宜外贸手提电脑"
             }
         },
         "1081181309100": {
@@ -572,45 +642,21 @@
             "data": {
                 "guaranteeList": [
                     {
-                        "serviceName": "运费险",
-                        "description": "卖家为您购买的商品投保退货运费险",
-                        "serviceLink": "https://page.1688.com/html/yunfeixianmj.html",
-                        "textColor": "#222222"
-                    },
-                    {
                         "serviceName": "38天免费赊账",
                         "description": "诚e赊是平台专属的免费账期工具，先下单后还款。",
                         "serviceLink": "https://rongzi.1688.com/creditbuy/index.htm?role=buyer&tracelog=ces_offerdetail_wkt",
                         "textColor": "#222222"
                     },
                     {
+                        "serviceName": "48小时发货",
+                        "description": "该商家已开通48小时发货延必赔服务，承诺在支付成功起48小时内为您发货，如商家未能如约发货，您可在此笔订单中申请违约赔付。",
+                        "serviceLink": "https://show.1688.com/vip/other/1bpmrma4.html?spm=a2637k.pagelist.0.0.741a370awJoKwS&__pageId__=227845&cms_id=227845",
+                        "textColor": "#222222"
+                    },
+                    {
                         "serviceName": "极速退款",
                         "description": "“极速退款” 是平台的极致退款体验，在符合一定的退款申请时效和退款金额范围内，可享受0秒退款服务或商家2小时响应退款的服务。",
                         "serviceLink": "https://show.1688.com/vip/other/2csfppfe.html?spm=a2637k.pagelist.0.0.7c69370aqRcuVa&__pageId__=227465&cms_id=227465",
-                        "textColor": "#222222"
-                    },
-                    {
-                        "serviceName": "7天包换",
-                        "description": "您可以在签收货物后七（7）天内，在非因质量问题，且无人为损坏，不影响二次销售的情形下免费更换与所需更换商品除尺码和颜色外其他属性一致的等值新品。在换货过程中，所需运费均由买家自行承担，但因质量问题而产生运费除外。",
-                        "serviceLink": "https://page.1688.com/buyerprotection/buyer.html",
-                        "textColor": "#222222"
-                    },
-                    {
-                        "serviceName": "少货必赔",
-                        "description": "卖家向买家承诺，在买家通过阿里巴巴中国站使用在线方式订购卖家出售的产品，卖家发货后，如买家收到的货品同订购数量或重量同交易约定不一致，产生短少的情况时，卖家同意根据买家选择，采取一定方案对买家进行补偿。",
-                        "serviceLink": "https://show.1688.com/dacu/common/rcxhdshbpfwbzsmgD.html?pageId=22017&cms_id=22017",
-                        "textColor": "#222222"
-                    },
-                    {
-                        "serviceName": "破损包赔",
-                        "description": "该卖家已开通破损包赔服务，承诺若商品在运输途中出现破损，将为您补寄，补寄运费由卖家承担。",
-                        "serviceLink": "https://show.1688.com/dacu/common/rcxhdpsbphhdbpbzfwsmK3.html?pageId=22019&cms_id=22019",
-                        "textColor": "#222222"
-                    },
-                    {
-                        "serviceName": "72小时发货",
-                        "description": "该商家已开通72小时发货延必赔服务，承诺在支付成功起72小时内为您发货，如商家未能如约发货，您可在此笔订单中申请违约赔付。",
-                        "serviceLink": "https://show.1688.com/vip/other/1bpmrma4.html?spm=a2637k.pagelist.0.0.741a370awJoKwS&__pageId__=227845&cms_id=227845",
                         "textColor": "#222222"
                     },
                     {
@@ -625,50 +671,17 @@
             "componentType": "@ali/tdmod-od-pc-offer-price",
             "trackInfo": {},
             "data": {
-                "offerDomain": "{\"detailDescription\":{\"dataDesc\":{\"payOrder30DayStr\":\"1000+\"},\"abTestInfo\":{\"exposeClickInfo\":{},\"pvTrackInfo\":{},\"abTestValueInfo\":{}},\"images\":{\"activityBackColor\":\"\",\"cautionImageUrl\":\"\",\"shareWithGiftIcon\":\"https://gw.alicdn.com/tfs/TB1YYyRuhTpK1RjSZFMXXbG_VXa-36-36.png\",\"wirelessCorner\":\"\",\"activityUrl\":\"\",\"wirelessLabel\":\"\",\"background\":\"\",\"backgroundIcon\":\"\",\"iconUrl\":\"\",\"officialActivityIcon\":\"\"},\"deliveryLimit\":3,\"protectionInfoList\":[{\"serviceLink\":\"https://page.1688.com/html/yunfeixianmj.html\",\"serviceCode\":\"yfx_s\",\"description\":\"卖家为您购买的商品投保退货运费险\",\"serviceName\":\"运费险\",\"logoUrl_64_64\":\"https://cbu01.alicdn.com/cms/upload/2016/504/795/2597405_532208266.gif\",\"logoUrl_16_16\":\"https://cbu01.alicdn.com/cms/upload/2016/504/795/2597405_532208266.gif\"},{\"serviceLink\":\"https://rongzi.1688.com/creditbuy/index.htm?role=buyer&tracelog=ces_offerdetail_wkt\",\"description\":\"诚e赊是平台专属的免费账期工具，先下单后还款。\",\"serviceName\":\"38天免费赊账\",\"logoUrl_64_64\":\"https://cbu01.alicdn.com/cms/upload/2015/188/805/2508881_1265251585.png\",\"logoUrl_16_16\":\"https://cbu01.alicdn.com/cms/upload/2015/188/805/2508881_1265251585.png\"},{\"longDescription\":\"“极速退款” 是平台的极致退款体验，在符合一定的退款申请时效和退款金额范围内，可享受0秒退款服务或商家2小时响应退款的服务。\",\"serviceLink\":\"https://show.1688.com/vip/other/2csfppfe.html?spm=a2637k.pagelist.0.0.7c69370aqRcuVa&__pageId__=227465&cms_id=227465\",\"serviceCode\":\"jstk_p\",\"description\":\"“极速退款” 是平台的极致退款体验，在符合一定的退款申请时效和退款金额范围内，可享受0秒退款服务或商家2小时响应退款的服务。\",\"serviceName\":\"极速退款\",\"type\":\"protect\",\"logoUrl\":\"https://img.alicdn.com/imgextra/i3/O1CN01dcTxhB1f7j6hzsS7s_!!6000000003960-2-tps-64-64.png\",\"logoUrl_64_64\":\"https://img.alicdn.com/imgextra/i3/O1CN01dcTxhB1f7j6hzsS7s_!!6000000003960-2-tps-64-64.png\",\"logoUrl_16_16\":\"https://img.alicdn.com/imgextra/i4/O1CN01tnZSFq1Gfk8BH5kkH_!!6000000000650-2-tps-16-16.png\",\"buyerDescription\":\"极速退款\"},{\"longDescription\":\"卖家在承诺买家保障服务的基础上，自愿选择向买家提供“7天包换”服务。在买家使用在线方式订购支持“7天包换 ”服务的商品后，卖家承诺在买家签收货物后的7天内，对无人为损坏的商品提供更换服务。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。\",\"serviceLink\":\"https://page.1688.com/buyerprotection/buyer.html\",\"serviceCode\":\"qtbh\",\"description\":\"您可以在签收货物后七（7）天内，在非因质量问题，且无人为损坏，不影响二次销售的情形下免费更换与所需更换商品除尺码和颜色外其他属性一致的等值新品。在换货过程中，所需运费均由买家自行承担，但因质量问题而产生运费除外。\",\"serviceName\":\"7天包换\",\"type\":\"protect\",\"logoUrl\":\"https://cbu01.alicdn.com/cms/upload/2015/710/615/2516017_1964054271.png\",\"logoUrl_64_64\":\"https://cbu01.alicdn.com/cms/upload/2015/710/615/2516017_1964054271.png\",\"logoUrl_16_16\":\"https://cbu01.alicdn.com/cms/upload/2015/377/805/2508773_1964054271.png\"},{\"longDescription\":\"如卖家未能在指定期间内提供相关证据材料，或相关证据材料明显无效，阿里巴巴判定买家赔付申请成立，卖家同意按照本协议之约定向买家赔偿其受到的损失，赔偿金额为买家已实际支付的短少产品价款（仅为配件短少时亦应就整套产品价款进行赔偿）。此等情形下，阿里巴巴有权动用卖家的保证金或通知支付宝公司自卖家的支付宝账户直接扣除相应金额款项先行赔付给买家。\",\"serviceLink\":\"https://show.1688.com/dacu/common/rcxhdshbpfwbzsmgD.html?pageId=22017&cms_id=22017\",\"serviceCode\":\"shbp\",\"description\":\"卖家向买家承诺，在买家通过阿里巴巴中国站使用在线方式订购卖家出售的产品，卖家发货后，如买家收到的货品同订购数量或重量同交易约定不一致，产生短少的情况时，卖家同意根据买家选择，采取一定方案对买家进行补偿。\",\"serviceName\":\"少货必赔\",\"type\":\"protect\",\"logoUrl\":\"https://img.alicdn.com/tfs/TB1DCg8CVT7gK0jSZFpXXaTkpXa-64-64.png\",\"logoUrl_64_64\":\"https://img.alicdn.com/tfs/TB1DCg8CVT7gK0jSZFpXXaTkpXa-64-64.png\",\"logoUrl_16_16\":\"https://img.alicdn.com/tfs/TB1b0VgDlr0gK0jSZFnXXbRRXXa-16-16.png\"},{\"longDescription\":\"卖家在承诺买家保障服务的基础上，自愿选择向买家提供“破损包赔”服务。在买家使用在线方式订购卖家出售的产品后，如产品存在破损，卖家承诺在保障时效内免费向买家补寄一次，如补寄后买家依旧无法获得完好的产品，卖家需向买家提供破损产品的退货退款服务。\",\"serviceLink\":\"https://show.1688.com/dacu/common/rcxhdpsbphhdbpbzfwsmK3.html?pageId=22019&cms_id=22019\",\"serviceCode\":\"psbj\",\"description\":\"该卖家已开通破损包赔服务，承诺若商品在运输途中出现破损，将为您补寄，补寄运费由卖家承担。\",\"serviceName\":\"破损包赔\",\"type\":\"protect\",\"logoUrl\":\"https://cbu01.alicdn.com/cms/upload/2015/308/705/2507803_1964054271.png\",\"logoUrl_64_64\":\"https://cbu01.alicdn.com/cms/upload/2015/308/705/2507803_1964054271.png\",\"logoUrl_16_16\":\"https://cbu01.alicdn.com/cms/upload/2015/020/615/2516020_1964054271.png\"},{\"longDescription\":\"卖家在承诺买家保障服务的基础上，向买家提供“72小时发货延必赔”的服务。在买家通过支付宝担保交易完成付款或通过货到付款下单成功后，卖家承诺在买家支付成功起72小时内发货。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。\",\"serviceLink\":\"https://show.1688.com/vip/other/1bpmrma4.html?spm=a2637k.pagelist.0.0.741a370awJoKwS&__pageId__=227845&cms_id=227845\",\"serviceCode\":\"qsexsfh\",\"description\":\"该商家已开通72小时发货延必赔服务，承诺在支付成功起72小时内为您发货，如商家未能如约发货，您可在此笔订单中申请违约赔付。\",\"serviceName\":\"72小时发货\",\"type\":\"protect\",\"logoUrl\":\"https://cbu01.alicdn.com/cms/upload/2015/277/505/2505772_1964054271.png\",\"logoUrl_64_64\":\"https://cbu01.alicdn.com/cms/upload/2015/277/505/2505772_1964054271.png\",\"logoUrl_16_16\":\"https://cbu01.alicdn.com/cms/upload/2015/568/405/2504865_1964054271.png\",\"agreeDeliveryHours\":72},{\"longDescription\":\"本产品支持七天无理由退货\",\"serviceCode\":\"std_qtth\",\"description\":\"本产品支持七天无理由退货\",\"serviceName\":\"七天无理由退货\"}],\"questionInfo\":\"200528928:101044942;200528921:101052284;200528922:101052295;200528923:101052297;200528925:101044912;200528926:101044920;200528929:101044948;\",\"banners\":{\"aliPayOfferDetailBanner\":{\"bannerJumpUrl\":\"\",\"BannerUrl\":\"\"},\"offerDetailBanner\":{\"bannerJumpUrl\":\"\",\"BannerUrl\":\"\"},\"dacuBanner\":{\"bannerJumpUrl\":\"\",\"BannerUrl\":\"\"},\"bigPromotionBanner\":{\"bannerJumpUrl\":\"https://shop6i88195f90534.1688.com/page/activity.htm?offerId=669775995141#promotion\",\"BannerUrl\":\"\"}},\"urls\":{},\"texts\":{\"brandRelationType\":\"\",\"brandName\":\"\",\"cautionText\":\"\",\"wirelessLabelText\":\"\",\"tradeTemplateId\":\"[]\"},\"shareActivityInfo\":{},\"officialDocInfos\":[],\"freightInfo\":{\"unitWeight\":0.1000000000000000055511151231257827021181583404541015625,\"freeEndAmount\":-1,\"deliveryLimit\":3,\"officialLogistics\":false,\"subTemplateId\":15580227,\"deliveryFee\":{\"name\":\"TEMPLATED\"},\"freeDeliverFee\":false,\"location\":\"浙江省 金华市\",\"locationCode\":\"33016008\",\"totalCost\":3.00}},\"channelBizType\":{\"name\":\"DSC\"},\"consignModel\":{\"distributeChannels\":[{\"name\":\"淘宝\",\"typeCode\":\"thyny\"},{\"name\":\"抖音\",\"typeCode\":\"douyin\"},{\"name\":\"快手\",\"typeCode\":\"kuaishou\"},{\"name\":\"微信\",\"typeCode\":\"wg\"},{\"name\":\"Amazon\",\"typeCode\":\"amazon\"},{\"name\":\"Shopify\",\"typeCode\":\"shopify\"},{\"name\":\"Shopee\",\"typeCode\":\"shopee\"}],\"consignSign\":{\"isSupportConsignIssuing\":true,\"supportDistribution\":true,\"signs\":{\"isSupportConsignIssuing\":true,\"supportDistribution\":true,\"hasConsignReation\":false,\"isCanIgnoreConsignRelation\":false},\"isCanIgnoreConsignRelation\":false},\"isConsignOffer\":false,\"hasConsignPrice\":false},\"verticalType\":\"slsj\",\"sellerModel\":{\"loginId\":\"智拓日用品\",\"winportUrl\":\"https://shop6i88195f90534.1688.com\",\"companyName\":\"义乌市智拓日用品有限公司实力工厂\",\"sellerSign\":{\"isIndustrySeller\":false,\"isSlsj\":true,\"signs\":{\"isIndustrySeller\":false,\"isSlsj\":true,\"isEaseBuyDealer\":false,\"isChtMember\":false,\"isTp\":true},\"isTp\":true,\"isChtMember\":false},\"sellerIdentity\":\"slsj\",\"userId\":2212313476535,\"sellerFeature\":{\"features\":{\"brandShopTypeName\":\"\"},\"brandShopTypeName\":\"\"},\"memberId\":\"b2b-2212313476535b6516\"},\"tradeModel\":{\"canBookedAmount\":998857489,\"beginAmount\":2,\"personLimitCount\":-1,\"disPriceRanges\":[{\"discountPrice\":\"1.57\",\"endAmount\":299,\"price\":\"1.60\",\"beginAmount\":2},{\"discountPrice\":\"1.37\",\"endAmount\":9999,\"price\":\"1.40\",\"beginAmount\":300},{\"discountPrice\":\"1.23\",\"endAmount\":0,\"price\":\"1.25\",\"beginAmount\":10000}],\"isSupportWirelessOnly\":false,\"tradeWithoutPromotion\":{\"skuMapOriginal\":[{\"specId\":\"640f1b1e48778ea38313d775a8c6826c\",\"specAttrs\":\"混色\",\"saleCount\":1891,\"canBookCount\":9862592,\"skuId\":4832076325279,\"isPromotionSku\":false},{\"specId\":\"b5f88e8c9ddfb9b24f449d44e1916cd2\",\"specAttrs\":\"单色\",\"saleCount\":7102,\"canBookCount\":988994897,\"skuId\":4991120863990,\"isPromotionSku\":false}],\"OfferIsSkuTradeSupported\":false,\"offerMaxPrice\":\"1.60\",\"offerBeginAmount\":2,\"offerPriceDisplay\":\"1.25-1.60\",\"canBookedAmountOriginal\":998857489,\"offerPriceRanges\":[{\"discountPrice\":\"1.60\",\"endAmount\":299,\"price\":\"1.60\",\"beginAmount\":2},{\"discountPrice\":\"1.40\",\"endAmount\":9999,\"price\":\"1.40\",\"beginAmount\":300},{\"discountPrice\":\"1.25\",\"endAmount\":0,\"price\":\"1.25\",\"beginAmount\":10000}],\"offerMinPrice\":\"1.25\"},\"isSkuTradeSupported\":false,\"priceDisplay\":\"1.23-1.57\",\"offerPriceModel\":{\"originalPriceDisplay\":\"1.25-1.60\",\"originalPrices\":[{\"displayStyle\":\"line_price\",\"price\":\"1.60\",\"beginAmount\":2},{\"displayStyle\":\"line_price\",\"price\":\"1.40\",\"beginAmount\":300},{\"displayStyle\":\"line_price\",\"price\":\"1.25\",\"beginAmount\":10000}],\"currentPrices\":[{\"price\":\"1.57\",\"beginAmount\":2},{\"price\":\"1.37\",\"beginAmount\":300},{\"price\":\"1.23\",\"beginAmount\":10000}],\"priceDisplayType\":\"rangePrice\",\"priceLabel\":\"\"},\"promotionLimitCount\":-1,\"saleCount\":1101,\"skuMap\":[{\"specId\":\"640f1b1e48778ea38313d775a8c6826c\",\"specAttrs\":\"混色\",\"saleCount\":1891,\"discountPrice\":\"1.23\",\"canBookCount\":9862592,\"skuId\":4832076325279,\"isPromotionSku\":true},{\"specId\":\"b5f88e8c9ddfb9b24f449d44e1916cd2\",\"specAttrs\":\"单色\",\"saleCount\":7102,\"discountPrice\":\"1.23\",\"canBookCount\":988994897,\"skuId\":4991120863990,\"isPromotionSku\":true}],\"mixModel\":{\"mixOneForSale\":false,\"isSupportMix\":true,\"mixNumber\":80,\"mixAmount\":100},\"unit\":\"个\",\"hasPromotion\":true,\"minPrice\":\"1.23\",\"offerId\":669775995141,\"maxPrice\":\"1.57\",\"status\":{\"name\":\"RUNNING\"}},\"channelType\":\"dsc\",\"offerDetail\":{\"topCategoryId\":1813,\"subject\":\"工厂现货 魔法吸盘 解压吸盘squidopop it fidget toy squido pop\",\"offerMemberTags\":[4319553,4239937,4208449,195584,194816,205057,190208,140032,185600,4404545,4404801,4405057,4405313,4452673,215040,211200,213248,214272,216064,220160,224512,241408,230400,241664,4360513,217088,218112,215808,214784,210944,210688,204288,209664,203776,201984,201728,200192,198400,4472385,515841,325890,317186,342786,3852033,4050177,4049409,4136449,4186113,4095489,4272641,21312,31808,4319489,4248321,4247297,4247553,4400641,193856,170816,144704,4404737,4399873,4404993,4405249,4405505,216128,214080,206656,208960,211008,211264,202304,201280,202048,214336,4341249,4371713,4342785,232512,228160,232000,235584,214592,214848,317506,335938,334146,3674177,3895361,4050241,4050497,4049729,4049473,4135745,4312257,4249025,4247233,205185,137856,165760,4404929,4404673,4405185,4405441,216960,221568,236928,234368,227456,227712,236672,4360641,4364737,4360897,4373953,220800,220544,219264,214912,213376,210560,211072,204672,205440,202368,201088,198528,4503489,4483265,326018,306562,283778,340866,329602,4726465,3895681,4050561,4050305,4189569,4160385,4313985,4230529,4227969,4247425,4247681,4404609,191680,193728,153024,139968,170944,4404865,4405121,4405377,4407425,4408193,4426113,4416641,210624,214720,214464,213440,214208,216256,220352,225728,241344,212416,210112,210880,209600,198592,201152,198336,197568,4510081,4481921,305602,325826,326082,337346,4754561,4725377,3691713,4049345],\"mainImageList\":[{\"imageURI\":\"img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.jpg\"},{\"imageURI\":\"img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.jpg\"},{\"imageURI\":\"img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.jpg\"},{\"imageURI\":\"img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.jpg\"},{\"imageURI\":\"img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.jpg\"}],\"preHeatStartTime\":\"1970-01-01 00:00:00\",\"offerType\":\"fashion\",\"skuProps\":[{\"fid\":1234,\"value\":[{\"name\":\"单色\",\"imageUrl\":\"https://cbu01.alicdn.com/img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.jpg\"},{\"name\":\"混色\",\"imageUrl\":\"https://cbu01.alicdn.com/img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.jpg\"}],\"prop\":\"规格\"}],\"featureAttributes\":[{\"fid\":346,\"isSpecial\":false,\"values\":[\"浙江省\"],\"name\":\"产地\",\"outputType\":0,\"lectotype\":false},{\"fid\":1626126,\"isSpecial\":false,\"values\":[\"硅胶\"],\"name\":\"玩具材质\",\"outputType\":0,\"lectotype\":false},{\"fid\":173024996,\"isSpecial\":false,\"values\":[\"是\"],\"name\":\"是否外贸专供\",\"outputType\":0,\"lectotype\":false},{\"fid\":2583,\"isSpecial\":false,\"values\":[\"儿童（3-6岁）\",\"青年（15-35岁）\"],\"name\":\"适用年龄\",\"outputType\":0,\"lectotype\":false},{\"fid\":100020141,\"isSpecial\":false,\"values\":[\"无\"],\"name\":\"商品3C认证码\",\"outputType\":0,\"lectotype\":false},{\"fid\":1398,\"isSpecial\":false,\"values\":[\"T-03113X\"],\"name\":\"货号\",\"outputType\":0,\"lectotype\":false},{\"fid\":2176,\"isSpecial\":false,\"values\":[\"智拓\"],\"name\":\"品牌\",\"outputType\":0,\"lectotype\":false},{\"fid\":7119,\"isSpecial\":false,\"values\":[\"2022年\"],\"name\":\"上市时间\",\"outputType\":0,\"lectotype\":false},{\"fid\":100018148,\"isSpecial\":false,\"values\":[\"无\"],\"name\":\"动漫角色\",\"outputType\":0,\"lectotype\":false},{\"fid\":7101,\"isSpecial\":false,\"values\":[\"不限\"],\"name\":\"适用人群\",\"outputType\":0,\"lectotype\":false},{\"fid\":21292,\"isSpecial\":false,\"values\":[\"opp\"],\"name\":\"包装\",\"outputType\":0,\"lectotype\":false},{\"fid\":7869,\"isSpecial\":false,\"values\":[\"否\"],\"name\":\"是否进口\",\"outputType\":0,\"lectotype\":false},{\"fid\":138662111,\"isSpecial\":false,\"values\":[\"视觉\",\"智力开发\",\"动手动脑\",\"抓握\",\"手眼协调\",\"其他能力培养\",\"互动玩具\",\"兴趣培养\"],\"name\":\"能力培养\",\"outputType\":0,\"lectotype\":false},{\"fid\":149980451,\"isSpecial\":false,\"values\":[\"否\"],\"name\":\"是否有动漫形象\",\"outputType\":0,\"lectotype\":false},{\"fid\":159484581,\"isSpecial\":false,\"values\":[\"义乌\"],\"name\":\"原产国/地区\",\"outputType\":0,\"lectotype\":false},{\"fid\":182282223,\"isSpecial\":false,\"values\":[\"是\"],\"name\":\"是否跨境出口专供货源\",\"outputType\":0,\"lectotype\":false},{\"fid\":152968864,\"isSpecial\":false,\"values\":[\"无\"],\"name\":\"专利号或版权登记证号\",\"outputType\":0,\"lectotype\":false},{\"fid\":152994712,\"isSpecial\":false,\"values\":[\"无\"],\"name\":\"专利及著作权\",\"outputType\":0,\"lectotype\":false},{\"fid\":158314989,\"isSpecial\":false,\"values\":[\"无\"],\"name\":\"专利及著作权申请时间\",\"outputType\":0,\"lectotype\":false},{\"fid\":182318189,\"isSpecial\":false,\"values\":[\"速卖通\"],\"name\":\"主要下游平台\",\"outputType\":0,\"lectotype\":false},{\"fid\":193290002,\"isSpecial\":false,\"values\":[\"非洲\",\"欧洲\",\"南美\",\"东南亚\",\"北美\",\"东北亚\",\"中东\"],\"name\":\"主要销售地区\",\"outputType\":0,\"lectotype\":false},{\"fid\":193290003,\"isSpecial\":false,\"values\":[\"否\"],\"name\":\"有可授权的自有品牌\",\"outputType\":0,\"lectotype\":false},{\"fid\":1477,\"isSpecial\":false,\"values\":[\"无\"],\"name\":\"加工方式\",\"outputType\":0,\"lectotype\":false},{\"fid\":100000729,\"isSpecial\":false,\"values\":[\"否\"],\"name\":\"加工定制\",\"outputType\":0,\"lectotype\":false},{\"fid\":11683430,\"isSpecial\":false,\"values\":[\"是\"],\"name\":\"是否有导购视频\",\"outputType\":0,\"lectotype\":false},{\"fid\":1234,\"isSpecial\":false,\"values\":[\"单色\",\"混色\"],\"name\":\"规格\",\"outputType\":0,\"lectotype\":false}],\"offerId\":669775995141,\"detailUrl\":\"https://itemcdn.tmall.com/1688offer/icoss1974977584117efc50170d3def\",\"leafCategoryId\":201340411,\"imageList\":[{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.jpg\"},{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.jpg\"},{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.jpg\"},{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.jpg\"},{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.jpg\"},{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.jpg\"},{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.jpg\"}],\"status\":{\"name\":\"PUBLISHED\"},\"offerSign\":{\"isSkuOffer\":true,\"isPreSell\":false,\"isConsignMarketOffer\":true,\"offerModelSign\":{\"isBuyerProtection\":true,\"isWeChatSupply\":true,\"isConsignMarketOffer\":true,\"isCrossBorderOffer\":true,\"isSupportMix\":true,\"isOnePsale\":true,\"isWholesaleOffer\":true,\"hasFreightTemplate\":true,\"isRangePriceSku\":true,\"isGovCouponOfferInOD\":false,\"isYtdfOffer\":true,\"hasSearchPicture\":true,\"isPreSaleOffer\":true,\"isTtptOffer\":true,\"hasWhitePicInOffer\":true,\"sevenDaysRefund\":true,\"hasOrder\":true,\"isTbDistributionOffer\":true,\"isToKuaiShou\":true,\"isAegisTrade\":true,\"isToTikTok\":true,\"isSearchOffer\":true,\"isCBDistribution\":true,\"isEssxsfh\":true,\"isZeroWholesaleOffer\":true,\"isAlipaySupported\":true,\"isBBuyerOffer\":true,\"isYuanbaoadOffer\":true,\"isYjbyOffer\":true,\"isUmp\":true,\"isSupportStock\":true,\"isSupportVideo\":true,\"hasSendGoodsAddress\":true},\"isOnlyNPorcessingOffer\":false,\"isOfferSupportOnlineTrade\":true,\"isDistribution\":true,\"stockProcessingLightOffer\":false,\"hasBusinessPrice\":false,\"stockReserveLightOffer\":false,\"hasJoinBusinessPrice\":false,\"isPreSaleOffer\":false,\"isVirtualCategory\":false,\"hasRelationOffer\":true,\"signs\":{\"isSkuOffer\":true,\"isPreSell\":false,\"isConsignMarketOffer\":true,\"isOnlyNPorcessingOffer\":false,\"isOfferSupportOnlineTrade\":true,\"isDistribution\":true,\"hasBusinessPrice\":false,\"hasJoinBusinessPrice\":false,\"isPreSaleOffer\":false,\"isVirtualCategory\":false,\"preHeatOfferCanTrade\":true,\"hasRelationOffer\":true,\"isChtSingleOffer\":false,\"isDetailForbidden\":false},\"isChtSingleOffer\":false,\"isDetailForbidden\":false},\"wirelessVideo\":{\"coverUrl\":\"https://img.alicdn.com/imgextra/i1/6000000002107/O1CN01Xw1jYt1RR3FWsTIBK_!!6000000002107-0-tbvideo.jpg\",\"videoId\":349777739670,\"state\":6,\"title\":\"魔法吸盘\",\"videoUrls\":{\"ios\":\"https://cloud.video.taobao.com/play/u/2212313476535/p/2/e/6/t/1/349777739670.mp4\",\"android\":\"https://cloud.video.taobao.com/play/u/2212313476535/p/2/e/6/t/1/349777739670.mp4\"}}},\"promotionModel\":{\"marketingType\":2,\"hotTime\":0,\"countdown\":8639999999,\"activityName\":\"限时促销\",\"marketingScene\":\"dszk\",\"promotionExtendInfo\":{\"offerDetailUrgeBarModel\":\"null\"},\"activityId\":1057202008,\"aggregatePromotionInfo\":[{\"promotionName\":\"互动优惠券\",\"promotionType\":\"INTERACT\",\"detailPromotionModels\":[{\"promotionInfoSummary\":\"关注有礼券\",\"promotionInfoDetail\":\"关注有礼券\",\"couponId\":5366142052,\"onlySupportMobile\":false,\"showDiscoutFee\":true,\"sellerId\":2212313476535,\"displayContent\":\"2\",\"promotionDisplayName\":\"关注有礼券\",\"couponType\":0,\"startTime\":1663689600000,\"promotionInfoType\":\"SCYL\",\"apply\":false,\"endtime\":1674316799000,\"canApply\":true,\"promotionLabel\":\"满10减2券\",\"finishApply\":false,\"couopnTypeName\":\"收藏赠券\",\"promotionInfoTime\":\"有效期：2022.09.21 00:00:00-2023.01.21 23:59:59\",\"startFee\":1000}],\"promotionExtend\":{\"uiType\":\"INTERACT\"}},{\"promotionName\":\"满优惠\",\"promotionType\":\"SHOP_PROMOTION\",\"detailPromotionModels\":[{\"promotionInfoSummary\":\"单笔订单满97元，减2元\",\"promotionInfoDetail\":\"单笔订单满97元，减2元\",\"freePostage\":false,\"promotionInfoType\":\"SHOP_PROMOTION\",\"discountFee\":200,\"endtime\":1709136000000,\"pcActivitySpreadUrl\":\"https://shop6i88195f90534.1688.com/page/shopactivity.htm?aid=1048825123\",\"canApply\":false,\"activityId\":1048825123,\"promotionLabel\":\"满97减2\",\"mobileActivitySpreadUrl\":\"https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2212313476535&aid=1048825123\",\"promotionDisplayName\":\"满优惠\",\"promotionInfoTime\":\"有效期：2021.10.29 00:00:00-2024.02.29 00:00:00\",\"startFee\":9700,\"startTime\":1635436800000},{\"promotionInfoSummary\":\"单笔订单满520元，减10元\",\"promotionInfoDetail\":\"单笔订单满520元，减10元\",\"freePostage\":false,\"promotionInfoType\":\"SHOP_PROMOTION\",\"discountFee\":1000,\"endtime\":1675094400000,\"pcActivitySpreadUrl\":\"https://shop6i88195f90534.1688.com/page/shopactivity.htm?aid=1051011150\",\"canApply\":false,\"activityId\":1051011150,\"promotionLabel\":\"满520减10\",\"mobileActivitySpreadUrl\":\"https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2212313476535&aid=1051011150\",\"promotionDisplayName\":\"满优惠\",\"promotionInfoTime\":\"有效期：2021.12.31 00:00:00-2023.01.31 00:00:00\",\"startFee\":52000,\"startTime\":1640880000000},{\"promotionInfoSummary\":\"单笔订单中活动产品满1000元，减30元\",\"promotionInfoDetail\":\"单笔订单中活动产品满1000元，减30元\",\"freePostage\":false,\"promotionInfoType\":\"SHOP_PROMOTION\",\"discountFee\":3000,\"endtime\":1672416000000,\"pcActivitySpreadUrl\":\"https://shop6i88195f90534.1688.com/page/shopactivity.htm?aid=1062521081\",\"canApply\":false,\"activityId\":1062521081,\"promotionLabel\":\"满1000减30\",\"mobileActivitySpreadUrl\":\"https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2212313476535&aid=1062521081\",\"promotionDisplayName\":\"满优惠\",\"promotionInfoTime\":\"有效期：2022.06.29 00:00:00-2022.12.31 00:00:00\",\"startFee\":100000,\"startTime\":1656432000000}],\"promotionExtend\":{\"uiType\":\"ACTIVITY\"}},{\"promotionName\":\"混批\",\"promotionType\":\"MIX_WHOLESALE\",\"detailPromotionModels\":[{\"promotionInfoSummary\":\"本店部分商品满100元或80件可混批采购\",\"promotionInfoDetail\":\"本店部分商品满100元或80件可混批采购\",\"promotionInfoType\":\"MIX_WHOLESALE\",\"bizType\":1,\"wholesaleDetail\":\"\",\"mixNumber\":80,\"canApply\":false,\"promotionLabel\":\"80件混批\",\"promotionDisplayName\":\"混批\",\"mixAmount\":100}],\"promotionExtend\":{\"uiType\":\"CARD\"}}],\"aggregateNewPromotionInfo\":[{\"features\":{\"calSkuCartFromMkc\":\"true\"},\"groupType\":\"DEFAULT_GROUP\",\"singlePromotionInfoModels\":[{\"detailPromotionModels\":[{\"promotionInfoSummary\":\"关注有礼券\",\"promotionInfoDetail\":\"关注有礼券\",\"couponId\":5366142052,\"onlySupportMobile\":false,\"isApply\":false,\"sellerId\":2212313476535,\"displayContent\":\"2\",\"promotionDisplayName\":\"关注有礼券\",\"couponType\":0,\"startTime\":1663689600000,\"promotionInfoType\":\"SCYL\",\"isShowDiscoutFee\":true,\"endtime\":1674316799000,\"canApply\":true,\"isFinishApply\":false,\"promotionLabel\":\"满10减2券\",\"couopnTypeName\":\"收藏赠券\",\"promotionInfoTime\":\"有效期：2022.09.21 00:00:00-2023.01.21 23:59:59\",\"startFee\":1000}],\"promotionName\":\"互动优惠券\",\"promotionType\":\"INTERACT\",\"promotionExtend\":{\"uiType\":\"INTERACT\"}},{\"detailPromotionModels\":[{\"promotionInfoSummary\":\"单笔订单满97元，减2元\",\"promotionInfoDetail\":\"单笔订单满97元，减2元\",\"freePostage\":false,\"promotionInfoType\":\"SHOP_PROMOTION\",\"discountFee\":200,\"endtime\":1709136000000,\"pcActivitySpreadUrl\":\"https://shop6i88195f90534.1688.com/page/shopactivity.htm?aid=1048825123\",\"canApply\":false,\"activityId\":1048825123,\"promotionLabel\":\"满97减2\",\"mobileActivitySpreadUrl\":\"https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2212313476535&aid=1048825123\",\"promotionDisplayName\":\"满优惠\",\"promotionInfoTime\":\"有效期：2021.10.29 00:00:00-2024.02.29 00:00:00\",\"startFee\":9700,\"startTime\":1635436800000},{\"promotionInfoSummary\":\"单笔订单满520元，减10元\",\"promotionInfoDetail\":\"单笔订单满520元，减10元\",\"freePostage\":false,\"promotionInfoType\":\"SHOP_PROMOTION\",\"discountFee\":1000,\"endtime\":1675094400000,\"pcActivitySpreadUrl\":\"https://shop6i88195f90534.1688.com/page/shopactivity.htm?aid=1051011150\",\"canApply\":false,\"activityId\":1051011150,\"promotionLabel\":\"满520减10\",\"mobileActivitySpreadUrl\":\"https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2212313476535&aid=1051011150\",\"promotionDisplayName\":\"满优惠\",\"promotionInfoTime\":\"有效期：2021.12.31 00:00:00-2023.01.31 00:00:00\",\"startFee\":52000,\"startTime\":1640880000000},{\"promotionInfoSummary\":\"单笔订单中活动产品满1000元，减30元\",\"promotionInfoDetail\":\"单笔订单中活动产品满1000元，减30元\",\"freePostage\":false,\"promotionInfoType\":\"SHOP_PROMOTION\",\"discountFee\":3000,\"endtime\":1672416000000,\"pcActivitySpreadUrl\":\"https://shop6i88195f90534.1688.com/page/shopactivity.htm?aid=1062521081\",\"canApply\":false,\"activityId\":1062521081,\"promotionLabel\":\"满1000减30\",\"mobileActivitySpreadUrl\":\"https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2212313476535&aid=1062521081\",\"promotionDisplayName\":\"满优惠\",\"promotionInfoTime\":\"有效期：2022.06.29 00:00:00-2022.12.31 00:00:00\",\"startFee\":100000,\"startTime\":1656432000000}],\"promotionName\":\"满优惠\",\"promotionType\":\"SHOP_PROMOTION\",\"promotionExtend\":{\"uiType\":\"ACTIVITY\"}},{\"detailPromotionModels\":[{\"promotionInfoSummary\":\"本店部分商品满100元或80件可混批采购\",\"promotionInfoDetail\":\"本店部分商品满100元或80件可混批采购\",\"promotionInfoType\":\"MIX_WHOLESALE\",\"bizType\":1,\"wholesaleDetail\":\"\",\"mixNumber\":80,\"canApply\":false,\"promotionLabel\":\"80件混批\",\"promotionDisplayName\":\"混批\",\"mixAmount\":100}],\"promotionName\":\"混批\",\"promotionType\":\"MIX_WHOLESALE\",\"promotionExtend\":{\"uiType\":\"CARD\"}}]}],\"promotionFeature\":{\"features\":{\"mobileActivitySpreadUrl\":\"https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2212313476535&aid=1057202008\",\"pcActivitySpreadUrl\":\"https://shop6i88195f90534.1688.com/page/shopactivity.htm?aid=1057202008\"},\"mobileActivitySpreadUrl\":\"https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2212313476535&aid=1057202008\",\"pcActivitySpreadUrl\":\"https://shop6i88195f90534.1688.com/page/shopactivity.htm?aid=1057202008\"},\"startTime\":1648656000000,\"bigPromotionInfo\":{\"bigPromotionCountdown\":-1,\"preheatTime\":-1,\"promotionResources\":{},\"burstEndTime\":-1,\"burstBeginTime\":-1,\"bigPromotionStatus\":\"NONE\"},\"endTime\":1685462400000,\"status\":{\"name\":\"RUNNING\"},\"promotionSign\":{\"isHpAdditionalDiscount\":false,\"hasBigPromotion\":false,\"isFreshmanActivity\":false,\"promotionRemoteCal\":true,\"skuFixPromotion\":false,\"isFreePostage\":false,\"cross2buy\":false,\"isShareWithGift\":true,\"isFxSellerTimeLimitActivity\":false,\"isLimitedTimePromotion\":true,\"signs\":{\"isLimitedTimePromotion\":true,\"isHpAdditionalDiscount\":false,\"hasBigPromotion\":false,\"isFreshmanActivity\":false,\"promotionRemoteCal\":true,\"hasMarketPromotion\":true,\"isFxOfficialTimeLimitActivity\":false,\"hasPurcharseMark\":false,\"skuFixPromotion\":false,\"isFreePostage\":false,\"isShareWithGift\":true,\"isFxSellerTimeLimitActivity\":false},\"hasMarketPromotion\":true,\"isFxOfficialTimeLimitActivity\":false,\"hasPurcharseMark\":false}},\"verticalBizType\":{\"name\":\"DEFAULT\"},\"sceneType\":\"sjyx\",\"buyerModel\":{\"gradeLevel\":\"0\",\"buyerSign\":{\"hasAuth\":true,\"privateBuyer\":false,\"signs\":{\"hasAuth\":true,\"visitorPicAuth\":true,\"isSellerPartner\":false,\"isBusinessBuyer\":false,\"isSelf\":false,\"visitorPriceAuth\":true},\"visitorPicAuth\":true,\"isSellerPartner\":false,\"isBusinessBuyer\":false,\"isSelf\":false,\"visitorPriceAuth\":true}},\"sceneBizType\":{\"name\":\"SJYX\"}}",
+                "offerDomain": "{\"detailDescription\":{\"dataDesc\":{\"payOrder30DayStr\":\"0\"},\"abTestInfo\":{\"exposeClickInfo\":{},\"pvTrackInfo\":{},\"abTestValueInfo\":{}},\"images\":{\"activityBackColor\":\"\",\"cautionImageUrl\":\"\",\"shareWithGiftIcon\":\"https://gw.alicdn.com/tfs/TB1YYyRuhTpK1RjSZFMXXbG_VXa-36-36.png\",\"wirelessCorner\":\"\",\"activityUrl\":\"\",\"wirelessLabel\":\"\",\"background\":\"\",\"backgroundIcon\":\"\",\"iconUrl\":\"\",\"officialActivityIcon\":\"\"},\"deliveryLimit\":2,\"protectionInfoList\":[{\"serviceLink\":\"https://rongzi.1688.com/creditbuy/index.htm?role=buyer&tracelog=ces_offerdetail_wkt\",\"description\":\"诚e赊是平台专属的免费账期工具，先下单后还款。\",\"serviceName\":\"38天免费赊账\",\"logoUrl_64_64\":\"https://cbu01.alicdn.com/cms/upload/2015/188/805/2508881_1265251585.png\",\"logoUrl_16_16\":\"https://cbu01.alicdn.com/cms/upload/2015/188/805/2508881_1265251585.png\"},{\"longDescription\":\"卖家在承诺买家保障服务的基础上，向买家提供“48小时发货延必赔”的服务。在买家通过支付宝担保交易完成付款或通过货到付款下单成功后，卖家承诺在买家支付成功起48小时内发货。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。\",\"serviceLink\":\"https://show.1688.com/vip/other/1bpmrma4.html?spm=a2637k.pagelist.0.0.741a370awJoKwS&__pageId__=227845&cms_id=227845\",\"serviceCode\":\"ssbxsfh\",\"description\":\"该商家已开通48小时发货延必赔服务，承诺在支付成功起48小时内为您发货，如商家未能如约发货，您可在此笔订单中申请违约赔付。\",\"serviceName\":\"48小时发货\",\"type\":\"protect\",\"logoUrl\":\"https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png\",\"logoUrl_64_64\":\"https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png\",\"logoUrl_16_16\":\"https://cbu01.alicdn.com/cms/upload/2015/177/505/2505771_1964054271.png\",\"agreeDeliveryHours\":48},{\"longDescription\":\"“极速退款” 是平台的极致退款体验，在符合一定的退款申请时效和退款金额范围内，可享受0秒退款服务或商家2小时响应退款的服务。\",\"serviceLink\":\"https://show.1688.com/vip/other/2csfppfe.html?spm=a2637k.pagelist.0.0.7c69370aqRcuVa&__pageId__=227465&cms_id=227465\",\"serviceCode\":\"jstk_p\",\"description\":\"“极速退款” 是平台的极致退款体验，在符合一定的退款申请时效和退款金额范围内，可享受0秒退款服务或商家2小时响应退款的服务。\",\"serviceName\":\"极速退款\",\"type\":\"protect\",\"logoUrl\":\"https://img.alicdn.com/imgextra/i3/O1CN01dcTxhB1f7j6hzsS7s_!!6000000003960-2-tps-64-64.png\",\"logoUrl_64_64\":\"https://img.alicdn.com/imgextra/i3/O1CN01dcTxhB1f7j6hzsS7s_!!6000000003960-2-tps-64-64.png\",\"logoUrl_16_16\":\"https://img.alicdn.com/imgextra/i4/O1CN01tnZSFq1Gfk8BH5kkH_!!6000000000650-2-tps-16-16.png\",\"buyerDescription\":\"极速退款\"},{\"longDescription\":\"本产品支持七天无理由退货\",\"serviceCode\":\"std_qtth\",\"description\":\"本产品支持七天无理由退货\",\"serviceName\":\"七天无理由退货\"}],\"banners\":{\"aliPayOfferDetailBanner\":{\"bannerJumpUrl\":\"\",\"BannerUrl\":\"\"},\"offerDetailBanner\":{\"bannerJumpUrl\":\"\",\"BannerUrl\":\"\"},\"dacuBanner\":{\"bannerJumpUrl\":\"\",\"BannerUrl\":\"\"},\"bigPromotionBanner\":{\"bannerJumpUrl\":\"https://shop285157971m405.1688.com/page/activity.htm?offerId=683253049962#promotion\",\"BannerUrl\":\"\"}},\"urls\":{},\"texts\":{\"brandRelationType\":\"\",\"brandName\":\"\",\"cautionText\":\"\",\"wirelessLabelText\":\"\",\"tradeTemplateId\":\"[0]\"},\"shareActivityInfo\":{},\"officialDocInfos\":[{\"fid\":125790829,\"baikeUrl\":\"https://baike.taobao.com/view.htm?id=30425469800\",\"name\":\"3C证书编号\",\"iconUrl\":\"https://img.alicdn.com/tfs/TB10qL.khnaK1RjSZFtXXbC2VXa-256-172.png\",\"baikeID\":30425469800,\"value\":\"2019010902230640\",\"content\":\"本品已填写符合国家CCC认证标准的中国强制性产品认证（CCC）编号\"}],\"freightInfo\":{\"unitWeight\":0,\"freeEndAmount\":-1,\"deliveryLimit\":2,\"officialLogistics\":false,\"subTemplateId\":16406032,\"logisticsText\":\"预计付款后48小时内发货\",\"deliveryFee\":{\"name\":\"TEMPLATED\"},\"freeDeliverFee\":false,\"location\":\"广东省 深圳市\",\"locationCode\":\"33816027\",\"totalCost\":0.00}},\"channelBizType\":{\"name\":\"DSC\"},\"consignModel\":{\"consignSign\":{\"isSupportConsignIssuing\":false,\"supportDistribution\":false,\"signs\":{\"isSupportConsignIssuing\":false,\"supportDistribution\":false,\"hasConsignReation\":false,\"isCanIgnoreConsignRelation\":false},\"isCanIgnoreConsignRelation\":false},\"isConsignOffer\":false,\"hasConsignPrice\":false},\"verticalType\":\"default\",\"sellerModel\":{\"loginId\":\"锐凯达88\",\"winportUrl\":\"https://shop285157971m405.1688.com\",\"companyName\":\"深圳市锐凯达科技有限公司\",\"sellerSign\":{\"isIndustrySeller\":false,\"isSlsj\":false,\"signs\":{\"isIndustrySeller\":false,\"isSlsj\":false,\"isEaseBuyDealer\":false,\"isChtMember\":false,\"isTp\":true},\"isTp\":true,\"isChtMember\":false},\"sellerIdentity\":\"default\",\"userId\":2213969359058,\"sellerFeature\":{\"features\":{\"brandShopTypeName\":\"\"},\"brandShopTypeName\":\"\"},\"memberId\":\"b2b-2213969359058c357a\"},\"tradeModel\":{\"canBookedAmount\":544,\"beginAmount\":2,\"isSupportWirelessOnly\":false,\"tradeWithoutPromotion\":{\"skuMapOriginal\":[{\"specId\":\"55b0537a17e7c026c3b56c991794d217\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+1024G固态硬盘\",\"price\":\"1788.00\",\"saleCount\":0,\"discountPrice\":\"1788.00\",\"canBookCount\":49,\"skuId\":5061750351401,\"isPromotionSku\":false},{\"specId\":\"a2b5e41e1219e7b1e15f5c8870b48298\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+256G固态硬盘\",\"price\":\"1488.00\",\"saleCount\":0,\"discountPrice\":\"1488.00\",\"canBookCount\":49,\"skuId\":5061750351400,\"isPromotionSku\":false},{\"specId\":\"c8d7d558aef3ec9be7f0845e2420bb1d\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;8G内存+无硬盘\",\"price\":\"1058.00\",\"saleCount\":0,\"discountPrice\":\"1058.00\",\"canBookCount\":50,\"skuId\":5061750351418,\"isPromotionSku\":false},{\"specId\":\"4ec6f9e91001e98fdf23bed15ebbb60a\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+1024G固态硬盘\",\"price\":\"1708.00\",\"saleCount\":0,\"discountPrice\":\"1708.00\",\"canBookCount\":49,\"skuId\":5061750351407,\"isPromotionSku\":false},{\"specId\":\"b9ff0c203981411e8082e11fadbb4db1\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+无硬盘\",\"price\":\"1288.00\",\"saleCount\":0,\"discountPrice\":\"1288.00\",\"canBookCount\":0,\"skuId\":5061750351412,\"isPromotionSku\":false},{\"specId\":\"888c327ab6f4ee8f9b2cc38f552ce154\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+256G固态硬盘\",\"price\":\"1488.00\",\"saleCount\":0,\"discountPrice\":\"1488.00\",\"canBookCount\":0,\"skuId\":5061750351410,\"isPromotionSku\":false},{\"specId\":\"bf4da01638b2a0580bf0881dac85a3e7\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+1024G固态硬盘\",\"price\":\"1708.00\",\"saleCount\":0,\"discountPrice\":\"1708.00\",\"canBookCount\":0,\"skuId\":5061750351417,\"isPromotionSku\":false},{\"specId\":\"188d7b6d6619e7f0b99fc423ec251f3c\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+128G固态硬盘\",\"price\":\"1338.00\",\"saleCount\":0,\"discountPrice\":\"1338.00\",\"canBookCount\":50,\"skuId\":5061750351404,\"isPromotionSku\":false},{\"specId\":\"f35046911ca6634e2cb192cbee1d5a7b\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+128G固态硬盘\",\"price\":\"1338.00\",\"saleCount\":0,\"discountPrice\":\"1338.00\",\"canBookCount\":0,\"skuId\":5061750351414,\"isPromotionSku\":false},{\"specId\":\"98bdb9d716909888f794bc058f09f981\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+512G固态硬盘\",\"price\":\"1508.00\",\"saleCount\":0,\"discountPrice\":\"1508.00\",\"canBookCount\":0,\"skuId\":5061750351416,\"isPromotionSku\":false},{\"specId\":\"00c627220bb5e9eefb79112df300050b\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+无硬盘\",\"price\":\"1288.00\",\"saleCount\":0,\"discountPrice\":\"1288.00\",\"canBookCount\":50,\"skuId\":5061750351402,\"isPromotionSku\":false},{\"specId\":\"1caa71b5e62a8154fa1734d44b81295f\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+无硬盘\",\"price\":\"1188.00\",\"saleCount\":0,\"discountPrice\":\"1188.00\",\"canBookCount\":0,\"skuId\":5061750351413,\"isPromotionSku\":false},{\"specId\":\"dd089ec68b649f9c04c2d7dc2004a666\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+1024G固态硬盘\",\"price\":\"1788.00\",\"saleCount\":0,\"discountPrice\":\"1788.00\",\"canBookCount\":0,\"skuId\":5061750351411,\"isPromotionSku\":false},{\"specId\":\"94c11ab132f9e1d7ba7d3f605da382a8\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;8G内存+无硬盘\",\"price\":\"1188.00\",\"saleCount\":0,\"discountPrice\":\"1188.00\",\"canBookCount\":50,\"skuId\":5061750351408,\"isPromotionSku\":false},{\"specId\":\"ca45152e9cf94062d9231f3638c6622b\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+512G固态硬盘\",\"price\":\"1588.00\",\"saleCount\":0,\"discountPrice\":\"1588.00\",\"canBookCount\":47,\"skuId\":5061750351399,\"isPromotionSku\":false},{\"specId\":\"5f9c19b1f3a0c789559007b10f30db0d\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+512G固态硬盘\",\"price\":\"1508.00\",\"saleCount\":0,\"discountPrice\":\"1508.00\",\"canBookCount\":50,\"skuId\":5061750351406,\"isPromotionSku\":false},{\"specId\":\"d5e3fefd4158be681da653739a3515d9\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+无硬盘\",\"price\":\"1188.00\",\"saleCount\":0,\"discountPrice\":\"1188.00\",\"canBookCount\":50,\"skuId\":5061750351403,\"isPromotionSku\":false},{\"specId\":\"21df1f381c471830b46e51d14d7e526d\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+512G固态硬盘\",\"price\":\"1588.00\",\"saleCount\":0,\"discountPrice\":\"1588.00\",\"canBookCount\":0,\"skuId\":5061750351409,\"isPromotionSku\":false},{\"specId\":\"a5b3b9e0146d000ab28041d30ffde55b\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+256G固态硬盘\",\"price\":\"1408.00\",\"saleCount\":0,\"discountPrice\":\"1408.00\",\"canBookCount\":50,\"skuId\":5061750351405,\"isPromotionSku\":false},{\"specId\":\"5bbc77d17673849f1d9be2a7edd6a409\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+256G固态硬盘\",\"price\":\"1408.00\",\"saleCount\":0,\"discountPrice\":\"1408.00\",\"canBookCount\":0,\"skuId\":5061750351415,\"isPromotionSku\":false}],\"OfferIsSkuTradeSupported\":true,\"offerMaxPrice\":\"1788.00\",\"offerBeginAmount\":2,\"offerPriceDisplay\":\"1058.00-1788.00\",\"canBookedAmountOriginal\":544,\"offerMinPrice\":\"1058.00\"},\"isSkuTradeSupported\":true,\"priceDisplay\":\"1058.00-1788.00\",\"offerPriceModel\":{\"currentPrices\":[{\"price\":\"1058.00\",\"beginAmount\":2},{\"price\":\"1788.00\",\"beginAmount\":2}],\"priceDisplayType\":\"skuPrice\",\"priceLabel\":\"\"},\"saleCount\":0,\"skuMap\":[{\"specId\":\"55b0537a17e7c026c3b56c991794d217\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+1024G固态硬盘\",\"price\":\"1788.00\",\"saleCount\":0,\"discountPrice\":\"1788.00\",\"canBookCount\":49,\"skuId\":5061750351401,\"isPromotionSku\":false},{\"specId\":\"a2b5e41e1219e7b1e15f5c8870b48298\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+256G固态硬盘\",\"price\":\"1488.00\",\"saleCount\":0,\"discountPrice\":\"1488.00\",\"canBookCount\":49,\"skuId\":5061750351400,\"isPromotionSku\":false},{\"specId\":\"c8d7d558aef3ec9be7f0845e2420bb1d\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;8G内存+无硬盘\",\"price\":\"1058.00\",\"saleCount\":0,\"discountPrice\":\"1058.00\",\"canBookCount\":50,\"skuId\":5061750351418,\"isPromotionSku\":false},{\"specId\":\"4ec6f9e91001e98fdf23bed15ebbb60a\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+1024G固态硬盘\",\"price\":\"1708.00\",\"saleCount\":0,\"discountPrice\":\"1708.00\",\"canBookCount\":49,\"skuId\":5061750351407,\"isPromotionSku\":false},{\"specId\":\"b9ff0c203981411e8082e11fadbb4db1\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+无硬盘\",\"price\":\"1288.00\",\"saleCount\":0,\"discountPrice\":\"1288.00\",\"canBookCount\":0,\"skuId\":5061750351412,\"isPromotionSku\":false},{\"specId\":\"888c327ab6f4ee8f9b2cc38f552ce154\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+256G固态硬盘\",\"price\":\"1488.00\",\"saleCount\":0,\"discountPrice\":\"1488.00\",\"canBookCount\":0,\"skuId\":5061750351410,\"isPromotionSku\":false},{\"specId\":\"bf4da01638b2a0580bf0881dac85a3e7\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+1024G固态硬盘\",\"price\":\"1708.00\",\"saleCount\":0,\"discountPrice\":\"1708.00\",\"canBookCount\":0,\"skuId\":5061750351417,\"isPromotionSku\":false},{\"specId\":\"188d7b6d6619e7f0b99fc423ec251f3c\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+128G固态硬盘\",\"price\":\"1338.00\",\"saleCount\":0,\"discountPrice\":\"1338.00\",\"canBookCount\":50,\"skuId\":5061750351404,\"isPromotionSku\":false},{\"specId\":\"f35046911ca6634e2cb192cbee1d5a7b\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+128G固态硬盘\",\"price\":\"1338.00\",\"saleCount\":0,\"discountPrice\":\"1338.00\",\"canBookCount\":0,\"skuId\":5061750351414,\"isPromotionSku\":false},{\"specId\":\"98bdb9d716909888f794bc058f09f981\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+512G固态硬盘\",\"price\":\"1508.00\",\"saleCount\":0,\"discountPrice\":\"1508.00\",\"canBookCount\":0,\"skuId\":5061750351416,\"isPromotionSku\":false},{\"specId\":\"00c627220bb5e9eefb79112df300050b\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+无硬盘\",\"price\":\"1288.00\",\"saleCount\":0,\"discountPrice\":\"1288.00\",\"canBookCount\":50,\"skuId\":5061750351402,\"isPromotionSku\":false},{\"specId\":\"1caa71b5e62a8154fa1734d44b81295f\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+无硬盘\",\"price\":\"1188.00\",\"saleCount\":0,\"discountPrice\":\"1188.00\",\"canBookCount\":0,\"skuId\":5061750351413,\"isPromotionSku\":false},{\"specId\":\"dd089ec68b649f9c04c2d7dc2004a666\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+1024G固态硬盘\",\"price\":\"1788.00\",\"saleCount\":0,\"discountPrice\":\"1788.00\",\"canBookCount\":0,\"skuId\":5061750351411,\"isPromotionSku\":false},{\"specId\":\"94c11ab132f9e1d7ba7d3f605da382a8\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;8G内存+无硬盘\",\"price\":\"1188.00\",\"saleCount\":0,\"discountPrice\":\"1188.00\",\"canBookCount\":50,\"skuId\":5061750351408,\"isPromotionSku\":false},{\"specId\":\"ca45152e9cf94062d9231f3638c6622b\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+512G固态硬盘\",\"price\":\"1588.00\",\"saleCount\":0,\"discountPrice\":\"1588.00\",\"canBookCount\":47,\"skuId\":5061750351399,\"isPromotionSku\":false},{\"specId\":\"5f9c19b1f3a0c789559007b10f30db0d\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+512G固态硬盘\",\"price\":\"1508.00\",\"saleCount\":0,\"discountPrice\":\"1508.00\",\"canBookCount\":50,\"skuId\":5061750351406,\"isPromotionSku\":false},{\"specId\":\"d5e3fefd4158be681da653739a3515d9\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+无硬盘\",\"price\":\"1188.00\",\"saleCount\":0,\"discountPrice\":\"1188.00\",\"canBookCount\":50,\"skuId\":5061750351403,\"isPromotionSku\":false},{\"specId\":\"21df1f381c471830b46e51d14d7e526d\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+512G固态硬盘\",\"price\":\"1588.00\",\"saleCount\":0,\"discountPrice\":\"1588.00\",\"canBookCount\":0,\"skuId\":5061750351409,\"isPromotionSku\":false},{\"specId\":\"a5b3b9e0146d000ab28041d30ffde55b\",\"specAttrs\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+256G固态硬盘\",\"price\":\"1408.00\",\"saleCount\":0,\"discountPrice\":\"1408.00\",\"canBookCount\":50,\"skuId\":5061750351405,\"isPromotionSku\":false},{\"specId\":\"5bbc77d17673849f1d9be2a7edd6a409\",\"specAttrs\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+256G固态硬盘\",\"price\":\"1408.00\",\"saleCount\":0,\"discountPrice\":\"1408.00\",\"canBookCount\":0,\"skuId\":5061750351415,\"isPromotionSku\":false}],\"mixModel\":{\"mixOneForSale\":false,\"isSupportMix\":false},\"unit\":\"台\",\"hasPromotion\":false,\"minPrice\":\"1058.00\",\"offerId\":683253049962,\"maxPrice\":\"1788.00\"},\"channelType\":\"dsc\",\"offerDetail\":{\"topCategoryId\":7,\"subject\":\"15.6寸笔记本电脑N5095金属外壳带网线接口现货便宜外贸手提电脑\",\"offerMemberTags\":[4249025,191104,194816,216960,218112,214144,214272,214784,215040,216064,236928,236672,227712,236416,226432,227456,224512,220800,220544,241408,213376,213248,201728,201088,200192,198528,198400,201984,203776,210944,211200,4456513,3852033,4189569,4136449,21312,170944,139968,144704,193856,170816,216256,224448,214720,214464,214336,202048,198592,206656,210880,212800,213440,214208,216128,235712,233792,225344,228160,229696,232000,222528,220864,219072,220352,4341249,4456705,305602,316354,3674177,4094529],\"mainImageList\":[{\"imageURI\":\"img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.jpg\"},{\"imageURI\":\"img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.jpg\"},{\"imageURI\":\"img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.jpg\"},{\"imageURI\":\"img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.jpg\"},{\"imageURI\":\"img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.jpg\"}],\"preHeatStartTime\":\"1970-01-01 00:00:00\",\"offerType\":\"fashion\",\"skuProps\":[{\"fid\":3216,\"value\":[{\"name\":\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色\",\"imageUrl\":\"https://cbu01.alicdn.com/img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.jpg\"},{\"name\":\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色\",\"imageUrl\":\"https://cbu01.alicdn.com/img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.jpg\"}],\"prop\":\"颜色\"},{\"fid\":2060,\"value\":[{\"name\":\"16G内存+512G固态硬盘\"},{\"name\":\"16G内存+256G固态硬盘\"},{\"name\":\"16G内存+1024G固态硬盘\"},{\"name\":\"16G内存+无硬盘\"},{\"name\":\"12G内存+无硬盘\"},{\"name\":\"12G内存+128G固态硬盘\"},{\"name\":\"12G内存+256G固态硬盘\"},{\"name\":\"12G内存+512G固态硬盘\"},{\"name\":\"12G内存+1024G固态硬盘\"},{\"name\":\"8G内存+无硬盘\"}],\"prop\":\"内存容量\"}],\"featureAttributes\":[{\"fid\":2176,\"isSpecial\":false,\"values\":[\"善如\"],\"name\":\"品牌\",\"outputType\":0,\"lectotype\":false},{\"fid\":3151,\"isSpecial\":false,\"values\":[\"N5095\"],\"name\":\"型号\",\"outputType\":0,\"lectotype\":false},{\"fid\":1398,\"isSpecial\":false,\"values\":[\"N5095-1\"],\"name\":\"货号\",\"outputType\":0,\"lectotype\":false},{\"fid\":7119,\"isSpecial\":false,\"values\":[\"2022\"],\"name\":\"上市时间\",\"outputType\":0,\"lectotype\":false},{\"fid\":100000691,\"isSpecial\":false,\"values\":[\"现货\"],\"name\":\"货源类别\",\"outputType\":0,\"lectotype\":false},{\"fid\":7619,\"isSpecial\":false,\"values\":[\"国产\"],\"name\":\"品牌地区\",\"outputType\":0,\"lectotype\":false},{\"fid\":9271,\"isSpecial\":false,\"values\":[\"轻薄便携本\"],\"name\":\"产品定位\",\"outputType\":0,\"lectotype\":false},{\"fid\":17,\"isSpecial\":false,\"values\":[\"N5095\"],\"name\":\"CPU类型\",\"outputType\":0,\"lectotype\":false},{\"fid\":18,\"unit\":\"GHz\",\"isSpecial\":false,\"values\":[\"2.0\"],\"name\":\"CPU主频\",\"outputType\":0,\"lectotype\":false},{\"fid\":1216,\"isSpecial\":false,\"values\":[\"无光驱\"],\"name\":\"光软驱位置\",\"outputType\":0,\"lectotype\":false},{\"fid\":2204,\"unit\":\"英寸\",\"isSpecial\":false,\"values\":[\"15.6英寸\"],\"name\":\"屏幕尺寸\",\"outputType\":0,\"lectotype\":false},{\"fid\":7167,\"isSpecial\":false,\"values\":[\"集成显卡\"],\"name\":\"显卡\",\"outputType\":0,\"lectotype\":false},{\"fid\":933,\"isSpecial\":false,\"values\":[\"全高清（1920x1080）\"],\"name\":\"分辨率\",\"outputType\":0,\"lectotype\":false},{\"fid\":20573,\"isSpecial\":false,\"values\":[\"win10\"],\"name\":\"操作系统\",\"outputType\":0,\"lectotype\":false},{\"fid\":14543205,\"isSpecial\":false,\"values\":[\"非触控\"],\"name\":\"是否触摸屏\",\"outputType\":0,\"lectotype\":false},{\"fid\":1329,\"isSpecial\":false,\"values\":[\"便携轻薄（17.5mm-21mm）\"],\"name\":\"厚度\",\"outputType\":0,\"lectotype\":false},{\"fid\":7680,\"isSpecial\":false,\"values\":[\"5小时以下\"],\"name\":\"续航时间\",\"outputType\":0,\"lectotype\":false},{\"fid\":357,\"isSpecial\":false,\"values\":[\"36*23.5*1.37cm\"],\"name\":\"产品尺寸\",\"outputType\":0,\"lectotype\":false},{\"fid\":3572,\"unit\":\"kg\",\"isSpecial\":false,\"values\":[\"1.5-2.0KG\"],\"name\":\"重量\",\"outputType\":0,\"lectotype\":false},{\"fid\":44,\"isSpecial\":false,\"values\":[\"可OEM\"],\"name\":\"OEM\",\"outputType\":0,\"lectotype\":false},{\"fid\":100017842,\"isSpecial\":false,\"values\":[\"1-3天\"],\"name\":\"最快出货时间\",\"outputType\":0,\"lectotype\":false},{\"fid\":132310740,\"isSpecial\":false,\"values\":[\"不支持\"],\"name\":\"是否支持代理加盟\",\"outputType\":0,\"lectotype\":false},{\"fid\":100001270,\"isSpecial\":false,\"values\":[\"店铺三包\"],\"name\":\"售后类型\",\"outputType\":0,\"lectotype\":false},{\"fid\":3548,\"unit\":\"年\",\"isSpecial\":false,\"values\":[\"1年\"],\"name\":\"质保\",\"outputType\":0,\"lectotype\":false},{\"fid\":100040752,\"isSpecial\":false,\"values\":[\"不提供发票\"],\"name\":\"发票\",\"outputType\":0,\"lectotype\":false},{\"fid\":100273971,\"isSpecial\":false,\"values\":[\"笔记本电脑，充电器，礼品\"],\"name\":\"包装清单\",\"outputType\":0,\"lectotype\":false},{\"fid\":125790829,\"isSpecial\":false,\"values\":[\"2019010902230640\"],\"name\":\"3C证书编号\",\"outputType\":0,\"lectotype\":false},{\"fid\":3070,\"isSpecial\":false,\"values\":[\"集显\"],\"name\":\"显存容量\",\"outputType\":0,\"lectotype\":false},{\"fid\":3216,\"isSpecial\":false,\"values\":[\"N5095-带指纹带背光-A壳金属-带RJ45接口-银色\",\"J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色\"],\"name\":\"颜色\",\"outputType\":0,\"lectotype\":false},{\"fid\":2060,\"isSpecial\":false,\"values\":[\"16G内存+512G固态硬盘\",\"16G内存+256G固态硬盘\",\"16G内存+1024G固态硬盘\",\"16G内存+无硬盘\",\"12G内存+无硬盘\",\"12G内存+128G固态硬盘\",\"12G内存+256G固态硬盘\",\"12G内存+512G固态硬盘\",\"12G内存+1024G固态硬盘\",\"8G内存+无硬盘\"],\"name\":\"内存容量\",\"outputType\":0,\"lectotype\":false},{\"fid\":182318189,\"isSpecial\":false,\"values\":[\"ebay\",\"亚马逊\",\"wish\",\"速卖通\",\"独立站\",\"LAZADA\"],\"name\":\"主要下游平台\",\"outputType\":0,\"lectotype\":false},{\"fid\":193290002,\"isSpecial\":false,\"values\":[\"非洲\",\"欧洲\",\"南美\",\"东南亚\",\"北美\",\"东北亚\",\"中东\"],\"name\":\"主要销售地区\",\"outputType\":0,\"lectotype\":false},{\"fid\":193290003,\"isSpecial\":false,\"values\":[\"否\"],\"name\":\"有可授权的自有品牌\",\"outputType\":0,\"lectotype\":false},{\"fid\":182282223,\"isSpecial\":false,\"values\":[\"是\"],\"name\":\"是否跨境出口专供货源\",\"outputType\":0,\"lectotype\":false},{\"fid\":14294914,\"isSpecial\":false,\"values\":[\"无\"],\"name\":\"能效等级\",\"outputType\":0,\"lectotype\":false},{\"fid\":143220385,\"isSpecial\":false,\"values\":[\"否\"],\"name\":\"是否专利货源\",\"outputType\":0,\"lectotype\":false}],\"offerId\":683253049962,\"detailVideoId\":\"357763518073\",\"detailUrl\":\"https://itemcdn.tmall.com/1688offer/icoss2930777950e1f0538b7efb7fa4\",\"leafCategoryId\":702,\"imageList\":[{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.jpg\"},{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.jpg\"},{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.jpg\"},{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.jpg\"},{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.jpg\"},{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.jpg\"},{\"size220x220ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.220x220.jpg\",\"imageURI\":\"img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.jpg\",\"searchImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.search.jpg\",\"summImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.summ.jpg\",\"size310x310ImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.310x310.jpg\",\"fullPathImageURI\":\"https://cbu01.alicdn.com/img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.jpg\"}],\"status\":{\"name\":\"PUBLISHED\"},\"offerSign\":{\"isSkuOffer\":true,\"isPreSell\":false,\"isConsignMarketOffer\":false,\"offerModelSign\":{\"isBuyerProtection\":true,\"isSkuTradeSupported\":true,\"isSearchOffer\":true,\"hasFreightTemplate\":true,\"isAlipaySupported\":true,\"isGpfOffer\":true,\"isSsbxsfh\":true,\"isGovCouponOfferInOD\":false,\"hasSearchPicture\":true,\"hasWhitePicInOffer\":true,\"sevenDaysRefund\":true,\"isSupportStock\":true,\"isImportOffer\":true,\"isTbDistributionOffer\":true,\"isAegisTrade\":true,\"isSupportVideo\":true,\"hasSendGoodsAddress\":true},\"isOnlyNPorcessingOffer\":false,\"isOfferSupportOnlineTrade\":true,\"isDistribution\":true,\"stockProcessingLightOffer\":false,\"hasBusinessPrice\":false,\"stockReserveLightOffer\":false,\"hasJoinBusinessPrice\":false,\"isPreSaleOffer\":false,\"isVirtualCategory\":false,\"hasRelationOffer\":false,\"signs\":{\"isSkuOffer\":true,\"isPreSell\":false,\"isConsignMarketOffer\":false,\"isOnlyNPorcessingOffer\":false,\"isOfferSupportOnlineTrade\":true,\"isDistribution\":true,\"hasBusinessPrice\":false,\"hasJoinBusinessPrice\":false,\"isPreSaleOffer\":false,\"isVirtualCategory\":false,\"preHeatOfferCanTrade\":true,\"isChtSingleOffer\":false,\"isDetailForbidden\":false},\"isChtSingleOffer\":false,\"isDetailForbidden\":false},\"wirelessVideo\":{\"coverUrl\":\"https://img.alicdn.com/imgextra/i2/6000000005796/O1CN01tZZWZu1sgcMzX4OGq_!!6000000005796-0-tbvideo.jpg\",\"videoId\":371717106478,\"state\":6,\"title\":\"LOL游戏视频\",\"videoUrls\":{\"ios\":\"https://cloud.video.taobao.com/play/u/2213969359058/p/2/e/6/t/1/371717106478.mp4\",\"android\":\"https://cloud.video.taobao.com/play/u/2213969359058/p/2/e/6/t/1/371717106478.mp4\"}}},\"promotionModel\":{\"hotTime\":0,\"promotionExtendInfo\":{\"offerDetailUrgeBarModel\":\"null\"},\"onHandPriceBO\":{\"onHandPrice\":\"991.34\",\"offerPrice\":\"1058.00\",\"onHandPriceCalInfos\":[{\"perDiscountSumFee\":\"200.0\",\"promotionLabel\":\"满2600减200\",\"promotionDisplayName\":\"满优惠\"}],\"promotionDetailShowText\":\"当前购买3件，可使用以下优惠\",\"onHandPriceQuantity\":3,\"promotionText\":\"3件预估￥991.34元/件\",\"orderText\":\"优惠下单\",\"onHandPriceAmount\":\"2974.00\",\"name\":\"\",\"priceTypeText\":\"折后包邮\",\"handPriceShowText\":\"现在购买3件折后单价\"},\"aggregatePromotionInfo\":[{\"promotionName\":\"满优惠\",\"promotionType\":\"SHOP_PROMOTION\",\"detailPromotionModels\":[{\"promotionInfoSummary\":\"单笔订单满2600元，减200元，免快递运费\",\"promotionInfoDetail\":\"单笔订单满2600元，减200元，免快递运费\",\"freePostage\":true,\"promotionInfoType\":\"SHOP_PROMOTION\",\"discountFee\":20000,\"promotionInfoExtend\":\"\",\"endtime\":1672476810000,\"pcActivitySpreadUrl\":\"https://shop285157971m405.1688.com/page/shopactivity.htm?aid=1076371022\",\"canApply\":false,\"activityId\":1076371022,\"promotionLabel\":\"满2600减200\",\"mobileActivitySpreadUrl\":\"https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2213969359058&aid=1076371022\",\"promotionDisplayName\":\"满优惠\",\"promotionInfoTime\":\"有效期：2022.11.22 16:53:30-2022.12.31 16:53:30\",\"startFee\":260000,\"startTime\":1669107210000}],\"promotionExtend\":{\"uiType\":\"ACTIVITY\"}}],\"aggregateNewPromotionInfo\":[{\"features\":{\"calSkuCartFromMkc\":\"true\"},\"groupType\":\"DEFAULT_GROUP\",\"singlePromotionInfoModels\":[{\"detailPromotionModels\":[{\"promotionInfoSummary\":\"单笔订单满2600元，减200元，免快递运费\",\"promotionInfoDetail\":\"单笔订单满2600元，减200元，免快递运费\",\"freePostage\":true,\"promotionInfoType\":\"SHOP_PROMOTION\",\"discountFee\":20000,\"promotionInfoExtend\":\"\",\"endtime\":1672476810000,\"pcActivitySpreadUrl\":\"https://shop285157971m405.1688.com/page/shopactivity.htm?aid=1076371022\",\"canApply\":false,\"activityId\":1076371022,\"promotionLabel\":\"满2600减200\",\"mobileActivitySpreadUrl\":\"https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2213969359058&aid=1076371022\",\"promotionDisplayName\":\"满优惠\",\"promotionInfoTime\":\"有效期：2022.11.22 16:53:30-2022.12.31 16:53:30\",\"startFee\":260000,\"startTime\":1669107210000}],\"promotionName\":\"满优惠\",\"promotionType\":\"SHOP_PROMOTION\",\"promotionExtend\":{\"uiType\":\"ACTIVITY\"}}]}],\"startTime\":0,\"bigPromotionInfo\":{\"bigPromotionCountdown\":-1,\"preheatTime\":-1,\"promotionResources\":{},\"burstEndTime\":-1,\"burstBeginTime\":-1,\"bigPromotionStatus\":\"NONE\"},\"endTime\":0,\"promotionSign\":{\"isHpAdditionalDiscount\":false,\"hasBigPromotion\":false,\"isFreshmanActivity\":false,\"promotionRemoteCal\":true,\"skuFixPromotion\":false,\"isFreePostage\":false,\"cross2buy\":false,\"isShareWithGift\":false,\"isFxSellerTimeLimitActivity\":false,\"isLimitedTimePromotion\":false,\"signs\":{\"isLimitedTimePromotion\":false,\"isHpAdditionalDiscount\":false,\"hasBigPromotion\":false,\"isFreshmanActivity\":false,\"promotionRemoteCal\":true,\"isFxOfficialTimeLimitActivity\":false,\"hasPurcharseMark\":false,\"skuFixPromotion\":false,\"isFreePostage\":false,\"isShareWithGift\":false,\"isFxSellerTimeLimitActivity\":false},\"hasMarketPromotion\":false,\"isFxOfficialTimeLimitActivity\":false,\"hasPurcharseMark\":false}},\"verticalBizType\":{\"name\":\"DEFAULT\"},\"sceneType\":\"default\",\"buyerModel\":{\"gradeLevel\":\"0\",\"buyerSign\":{\"hasAuth\":true,\"privateBuyer\":false,\"signs\":{\"hasAuth\":true,\"visitorPicAuth\":true,\"isSellerPartner\":false,\"isBusinessBuyer\":false,\"isSelf\":false,\"visitorPriceAuth\":true},\"visitorPicAuth\":true,\"isSellerPartner\":false,\"isBusinessBuyer\":false,\"isSelf\":false,\"visitorPriceAuth\":true}},\"sceneBizType\":{\"name\":\"DEFAULT\"}}",
                 "promotionData": {
                     "couponList": [
                         {
-                            "couponType": "INTERACT",
-                            "couponContent": "满10减2券"
-                        },
-                        {
                             "couponType": "ACTIVITY",
-                            "couponContent": "满97减2"
-                        },
-                        {
-                            "couponType": "CARD",
-                            "couponContent": "80件混批"
+                            "couponContent": "满2600减200"
                         }
                     ],
                     "linkUrl": "https://cybert.m.1688.com/43ohz283.html?sceneName=chimera_16527",
                     "pageName": "Page_GetCoupon",
                     "couponInfoList": [
-                        {
-                            "type": "INTERACT",
-                            "name": "互动优惠券",
-                            "displayType": "text",
-                            "extraInfo": {
-                                "uiType": "INTERACT"
-                            },
-                            "uiType": "INTERACT",
-                            "summary": "关注有礼券",
-                            "buttonName": "领券",
-                            "promotionItems": [
-                                {
-                                    "detail": "关注有礼券",
-                                    "summary": "关注有礼券",
-                                    "label": "满10减2券",
-                                    "extendDetail": "",
-                                    "couponType": 0,
-                                    "availablePeriod": "有效期：2022.09.21 00:00:00-2023.01.21 23:59:59",
-                                    "startTime": "Wed Sep 21 00:00:00 CST 2022",
-                                    "canApply": true,
-                                    "applied": false,
-                                    "actionName": "立即领取"
-                                }
-                            ]
-                        },
                         {
                             "type": "SHOP_PROMOTION",
                             "name": "满优惠",
@@ -677,121 +690,56 @@
                                 "uiType": "ACTIVITY"
                             },
                             "uiType": "ACTIVITY",
-                            "summary": "单笔订单满97元，减2元",
+                            "summary": "单笔订单满2600元，减200元，免快递运费",
                             "buttonName": "查看",
                             "promotionItems": [
                                 {
-                                    "detail": "单笔订单满97元，减2元",
-                                    "summary": "单笔订单满97元，减2元",
-                                    "label": "满97减2",
+                                    "detail": "单笔订单满2600元，减200元，免快递运费",
+                                    "summary": "单笔订单满2600元，减200元，免快递运费",
+                                    "label": "满2600减200",
                                     "extendDetail": "",
-                                    "discountFee": 2,
-                                    "availablePeriod": "有效期：2021.10.29 00:00:00-2024.02.29 00:00:00",
-                                    "startTime": "Fri Oct 29 00:00:00 CST 2021",
-                                    "activityUrl": "https://shop6i88195f90534.1688.com/page/shopactivity.htm?aid=1048825123",
+                                    "discountFee": 200,
+                                    "availablePeriod": "有效期：2022.11.22 16:53:30-2022.12.31 16:53:30",
+                                    "startTime": "Tue Nov 22 16:53:30 CST 2022",
+                                    "activityUrl": "https://shop285157971m405.1688.com/page/shopactivity.htm?aid=1076371022",
                                     "actionName": "去凑单"
-                                },
-                                {
-                                    "detail": "单笔订单满520元，减10元",
-                                    "summary": "单笔订单满520元，减10元",
-                                    "label": "满520减10",
-                                    "extendDetail": "",
-                                    "discountFee": 10,
-                                    "availablePeriod": "有效期：2021.12.31 00:00:00-2023.01.31 00:00:00",
-                                    "startTime": "Fri Dec 31 00:00:00 CST 2021",
-                                    "activityUrl": "https://shop6i88195f90534.1688.com/page/shopactivity.htm?aid=1051011150",
-                                    "actionName": "去凑单"
-                                },
-                                {
-                                    "detail": "单笔订单中活动产品满1000元，减30元",
-                                    "summary": "单笔订单中活动产品满1000元，减30元",
-                                    "label": "满1000减30",
-                                    "extendDetail": "",
-                                    "discountFee": 30,
-                                    "availablePeriod": "有效期：2022.06.29 00:00:00-2022.12.31 00:00:00",
-                                    "startTime": "Wed Jun 29 00:00:00 CST 2022",
-                                    "activityUrl": "https://shop6i88195f90534.1688.com/page/shopactivity.htm?aid=1062521081",
-                                    "actionName": "去凑单"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "MIX_WHOLESALE",
-                            "name": "混批",
-                            "displayType": "coupon",
-                            "extraInfo": {
-                                "uiType": "CARD"
-                            },
-                            "uiType": "CARD",
-                            "summary": "本店部分商品满100元或80件可混批采购",
-                            "buttonName": "查看",
-                            "promotionItems": [
-                                {
-                                    "detail": "本店部分商品满100元或80件可混批采购",
-                                    "summary": "本店部分商品满100元或80件可混批采购",
-                                    "label": "80件混批",
-                                    "extendDetail": ""
                                 }
                             ]
                         }
                     ],
-                    "buttonName": "领券",
+                    "buttonName": "查看",
                     "bgColor": "#ff0e31",
-                    "offerId": 669775995141,
-                    "bgPic": "https://gw.alicdn.com/tfs/TB1gmeRp7cx_u4jSZFlXXXnUFXa-1071-138.png"
+                    "offerId": 683253049962,
+                    "onHandPrice": "991.34",
+                    "bgPic": "https://gw.alicdn.com/tfs/TB1gmeRp7cx_u4jSZFlXXXnUFXa-1071-138.png",
+                    "prefix": "券后价",
+                    "sufix": "起"
                 },
-                "displayType": "activity-common-range",
+                "displayType": "normal-sku",
                 "priceModel": {
-                    "originalPriceDisplay": "1.25-1.60",
-                    "originalPrices": [
-                        {
-                            "displayStyle": "line_price",
-                            "price": "1.60",
-                            "beginAmount": 2
-                        },
-                        {
-                            "displayStyle": "line_price",
-                            "price": "1.40",
-                            "beginAmount": 300
-                        },
-                        {
-                            "displayStyle": "line_price",
-                            "price": "1.25",
-                            "beginAmount": 10000
-                        }
-                    ],
                     "currentPrices": [
                         {
-                            "price": "1.57",
+                            "price": "1058.00",
                             "beginAmount": 2
                         },
                         {
-                            "price": "1.37",
-                            "beginAmount": 300
-                        },
-                        {
-                            "price": "1.23",
-                            "beginAmount": 10000
+                            "price": "1788.00",
+                            "beginAmount": 2
                         }
                     ],
-                    "priceDisplayType": "rangePrice",
+                    "priceDisplayType": "skuPrice",
                     "priceLabel": ""
                 },
                 "activityModel": {
-                    "activityType": "brandProm",
-                    "activityName": "限时促销",
-                    "activityUrl": "https://shop6i88195f90534.1688.com/page/shopactivity.htm?aid=1057202008",
-                    "countdown": 8639999999,
-                    "beforePro": false,
-                    "activityId": 1057202008
+                    "beforePro": false
                 },
-                "marketScene": "sjyx",
+                "marketScene": "default",
                 "isVipPrice": false,
                 "isBmPrice": false,
                 "bigPromotion": false,
                 "isPrivatePrice": false,
                 "isPlusPrice": false,
-                "unit": "个",
+                "unit": "台",
                 "channel": "dsc",
                 "bigPromotionInfo": {
                     "bigPromotionCountdown": -1,
@@ -809,54 +757,13 @@
             "data": {
                 "couponList": [
                     {
-                        "couponType": "INTERACT",
-                        "couponContent": "满10减2券"
-                    },
-                    {
                         "couponType": "ACTIVITY",
-                        "couponContent": "满97减2"
-                    },
-                    {
-                        "couponType": "ACTIVITY",
-                        "couponContent": "满520减10"
-                    },
-                    {
-                        "couponType": "ACTIVITY",
-                        "couponContent": "满1000减30"
-                    },
-                    {
-                        "couponType": "CARD",
-                        "couponContent": "80件混批"
+                        "couponContent": "满2600减200"
                     }
                 ],
                 "linkUrl": "https://cybert.m.1688.com/43ohz283.html?sceneName=chimera_16527",
                 "pageName": "Page_GetCoupon",
                 "couponInfoList": [
-                    {
-                        "type": "INTERACT",
-                        "name": "互动优惠券",
-                        "displayType": "text",
-                        "extraInfo": {
-                            "uiType": "INTERACT"
-                        },
-                        "uiType": "INTERACT",
-                        "summary": "关注有礼券",
-                        "buttonName": "领券",
-                        "promotionItems": [
-                            {
-                                "detail": "关注有礼券",
-                                "summary": "关注有礼券",
-                                "label": "满10减2券",
-                                "extendDetail": "",
-                                "couponType": 0,
-                                "availablePeriod": "有效期：2022.09.21 00:00:00-2023.01.21 23:59:59",
-                                "startTime": "Wed Sep 21 00:00:00 CST 2022",
-                                "canApply": true,
-                                "applied": false,
-                                "actionName": "立即领取"
-                            }
-                        ]
-                    },
                     {
                         "type": "SHOP_PROMOTION",
                         "name": "满优惠",
@@ -865,67 +772,26 @@
                             "uiType": "ACTIVITY"
                         },
                         "uiType": "ACTIVITY",
-                        "summary": "单笔订单满97元，减2元",
+                        "summary": "单笔订单满2600元，减200元，免快递运费",
                         "buttonName": "查看",
                         "promotionItems": [
                             {
-                                "detail": "单笔订单满97元，减2元",
-                                "summary": "单笔订单满97元，减2元",
-                                "label": "满97减2",
+                                "detail": "单笔订单满2600元，减200元，免快递运费",
+                                "summary": "单笔订单满2600元，减200元，免快递运费",
+                                "label": "满2600减200",
                                 "extendDetail": "",
-                                "discountFee": 2,
-                                "availablePeriod": "有效期：2021.10.29 00:00:00-2024.02.29 00:00:00",
-                                "startTime": "Fri Oct 29 00:00:00 CST 2021",
-                                "activityUrl": "https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2212313476535&aid=1048825123",
+                                "discountFee": 200,
+                                "availablePeriod": "有效期：2022.11.22 16:53:30-2022.12.31 16:53:30",
+                                "startTime": "Tue Nov 22 16:53:30 CST 2022",
+                                "activityUrl": "https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2213969359058&aid=1076371022",
                                 "actionName": "去凑单"
-                            },
-                            {
-                                "detail": "单笔订单满520元，减10元",
-                                "summary": "单笔订单满520元，减10元",
-                                "label": "满520减10",
-                                "extendDetail": "",
-                                "discountFee": 10,
-                                "availablePeriod": "有效期：2021.12.31 00:00:00-2023.01.31 00:00:00",
-                                "startTime": "Fri Dec 31 00:00:00 CST 2021",
-                                "activityUrl": "https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2212313476535&aid=1051011150",
-                                "actionName": "去凑单"
-                            },
-                            {
-                                "detail": "单笔订单中活动产品满1000元，减30元",
-                                "summary": "单笔订单中活动产品满1000元，减30元",
-                                "label": "满1000减30",
-                                "extendDetail": "",
-                                "discountFee": 30,
-                                "availablePeriod": "有效期：2022.06.29 00:00:00-2022.12.31 00:00:00",
-                                "startTime": "Wed Jun 29 00:00:00 CST 2022",
-                                "activityUrl": "https://air.1688.com/apps/alim/rax-1688-seller-pro/port.html?wh_weex=true&sellerId=2212313476535&aid=1062521081",
-                                "actionName": "去凑单"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "MIX_WHOLESALE",
-                        "name": "混批",
-                        "displayType": "coupon",
-                        "extraInfo": {
-                            "uiType": "CARD"
-                        },
-                        "uiType": "CARD",
-                        "summary": "本店部分商品满100元或80件可混批采购",
-                        "buttonName": "查看",
-                        "promotionItems": [
-                            {
-                                "detail": "本店部分商品满100元或80件可混批采购",
-                                "summary": "本店部分商品满100元或80件可混批采购",
-                                "label": "80件混批",
-                                "extendDetail": ""
                             }
                         ]
                     }
                 ],
-                "buttonName": "领券",
+                "buttonName": "查看",
                 "bgColor": "#ff0e31",
-                "offerId": 669775995141,
+                "offerId": 683253049962,
                 "style": {
                     "textColor": "#FF4000",
                     "arrowsImg": "https://img.alicdn.com/tfs/TB19FQtP4D1gK0jSZFsXXbldVXa-26-44.png"
@@ -935,7 +801,17 @@
         "10811813013427": {
             "componentType": "@ali/tdmod-od-pc-warning-cert",
             "data": {
-                "officialDocInfos": [],
+                "officialDocInfos": [
+                    {
+                        "fid": 125790829,
+                        "baikeUrl": "https://baike.taobao.com/view.htm?id=30425469800",
+                        "name": "3C证书编号",
+                        "iconUrl": "https://img.alicdn.com/tfs/TB10qL.khnaK1RjSZFtXXbC2VXa-256-172.png",
+                        "baikeID": 30425469800,
+                        "value": "2019010902230640",
+                        "content": "本品已填写符合国家CCC认证标准的中国强制性产品认证（CCC）编号"
+                    }
+                ],
                 "isCautionOffer": false,
                 "cautionText": "1688提醒您："
             }
@@ -956,240 +832,112 @@
         "isSkuOffer": true,
         "hasBigPromotion": false,
         "tempModel": {
-            "offerUnit": "个",
-            "offerId": 669775995141,
-            "offerTitle": "工厂现货 魔法吸盘 解压吸盘squidopop it fidget toy squido pop",
+            "offerUnit": "台",
+            "offerId": 683253049962,
+            "offerTitle": "15.6寸笔记本电脑N5095金属外壳带网线接口现货便宜外贸手提电脑",
             "defaultOfferImg": "",
-            "topCategoryId": 1813,
-            "postCategoryId": 201340411,
-            "companyName": "义乌市智拓日用品有限公司实力工厂",
-            "sellerUserId": 2212313476535,
-            "sellerLoginId": "智拓日用品",
-            "sellerMemberId": "b2b-2212313476535b6516",
-            "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-2212313476535b6516",
-            "saledCount": 1101
+            "topCategoryId": 7,
+            "postCategoryId": 702,
+            "companyName": "深圳市锐凯达科技有限公司",
+            "sellerUserId": 2213969359058,
+            "sellerLoginId": "锐凯达88",
+            "sellerMemberId": "b2b-2213969359058c357a",
+            "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-2213969359058c357a",
+            "saledCount": 0
         },
         "isSourcePromotion": false,
-        "orderParamLimitParam": {},
         "channelType": "dsc",
         "offerMemberTags": [
-            4319553,
-            4239937,
-            4208449,
-            195584,
-            194816,
-            205057,
-            190208,
-            140032,
-            185600,
-            4404545,
-            4404801,
-            4405057,
-            4405313,
-            4452673,
-            215040,
-            211200,
-            213248,
-            214272,
-            216064,
-            220160,
-            224512,
-            241408,
-            230400,
-            241664,
-            4360513,
-            217088,
-            218112,
-            215808,
-            214784,
-            210944,
-            210688,
-            204288,
-            209664,
-            203776,
-            201984,
-            201728,
-            200192,
-            198400,
-            4472385,
-            515841,
-            325890,
-            317186,
-            342786,
-            3852033,
-            4050177,
-            4049409,
-            4136449,
-            4186113,
-            4095489,
-            4272641,
-            21312,
-            31808,
-            4319489,
-            4248321,
-            4247297,
-            4247553,
-            4400641,
-            193856,
-            170816,
-            144704,
-            4404737,
-            4399873,
-            4404993,
-            4405249,
-            4405505,
-            216128,
-            214080,
-            206656,
-            208960,
-            211008,
-            211264,
-            202304,
-            201280,
-            202048,
-            214336,
-            4341249,
-            4371713,
-            4342785,
-            232512,
-            228160,
-            232000,
-            235584,
-            214592,
-            214848,
-            317506,
-            335938,
-            334146,
-            3674177,
-            3895361,
-            4050241,
-            4050497,
-            4049729,
-            4049473,
-            4135745,
-            4312257,
             4249025,
-            4247233,
-            205185,
-            137856,
-            165760,
-            4404929,
-            4404673,
-            4405185,
-            4405441,
+            191104,
+            194816,
             216960,
-            221568,
+            218112,
+            214144,
+            214272,
+            214784,
+            215040,
+            216064,
             236928,
-            234368,
-            227456,
-            227712,
             236672,
-            4360641,
-            4364737,
-            4360897,
-            4373953,
+            227712,
+            236416,
+            226432,
+            227456,
+            224512,
             220800,
             220544,
-            219264,
-            214912,
+            241408,
             213376,
-            210560,
-            211072,
-            204672,
-            205440,
-            202368,
+            213248,
+            201728,
             201088,
+            200192,
             198528,
-            4503489,
-            4483265,
-            326018,
-            306562,
-            283778,
-            340866,
-            329602,
-            4726465,
-            3895681,
-            4050561,
-            4050305,
+            198400,
+            201984,
+            203776,
+            210944,
+            211200,
+            4456513,
+            3852033,
             4189569,
-            4160385,
-            4313985,
-            4230529,
-            4227969,
-            4247425,
-            4247681,
-            4404609,
-            191680,
-            193728,
-            153024,
-            139968,
+            4136449,
+            21312,
             170944,
-            4404865,
-            4405121,
-            4405377,
-            4407425,
-            4408193,
-            4426113,
-            4416641,
-            210624,
+            139968,
+            144704,
+            193856,
+            170816,
+            216256,
+            224448,
             214720,
             214464,
+            214336,
+            202048,
+            198592,
+            206656,
+            210880,
+            212800,
             213440,
             214208,
-            216256,
+            216128,
+            235712,
+            233792,
+            225344,
+            228160,
+            229696,
+            232000,
+            222528,
+            220864,
+            219072,
             220352,
-            225728,
-            241344,
-            212416,
-            210112,
-            210880,
-            209600,
-            198592,
-            201152,
-            198336,
-            197568,
-            4510081,
-            4481921,
+            4341249,
+            4456705,
             305602,
-            325826,
-            326082,
-            337346,
-            4754561,
-            4725377,
-            3691713,
-            4049345
+            316354,
+            3674177,
+            4094529
         ],
         "hasConsignReation": false,
         "isPicPrivate": false,
-        "supportPuhuo": true,
+        "supportPuhuo": false,
         "isPricePrivate": false,
         "orderParamModel": {
             "orderParam": {
-                "saledCount": 1101,
-                "mixParam": {
-                    "mixNum": 80,
-                    "mixAmount": 100,
-                    "shopMixNum": 2147483647,
-                    "mixBegin": 0,
-                    "supportMix": true
-                },
-                "limitParam": {},
+                "saledCount": 0,
                 "beginNum": 2,
-                "canBookedAmount": 998857489,
+                "canBookedAmount": 544,
                 "skuParam": {
-                    "skuPriceType": "rangePrice",
+                    "skuPriceType": "skuPrice",
                     "skuRangePrices": [
                         {
-                            "price": "1.57",
+                            "price": "1058.00",
                             "beginAmount": "2"
                         },
                         {
-                            "price": "1.37",
-                            "beginAmount": "300"
-                        },
-                        {
-                            "price": "1.23",
-                            "beginAmount": "10000"
+                            "price": "1788.00",
+                            "beginAmount": "2"
                         }
                     ]
                 },
@@ -1199,7 +947,7 @@
                 }
             }
         },
-        "qrCode": "https://m.1688.com/offer/669775995141.html?sk=order",
+        "qrCode": "https://m.1688.com/offer/683253049962.html?sk=order",
         "detailModel": [],
         "hasPurcharseMark": false,
         "showOldOD": false,
@@ -1207,7 +955,7 @@
         "offerSign": {
             "isSkuOffer": true,
             "isPreSell": false,
-            "isConsignMarketOffer": true,
+            "isConsignMarketOffer": false,
             "isOnlyNPorcessingOffer": false,
             "isOfferSupportOnlineTrade": true,
             "isDistribution": true,
@@ -1216,7 +964,6 @@
             "isPreSaleOffer": false,
             "isVirtualCategory": false,
             "preHeatOfferCanTrade": true,
-            "hasRelationOffer": true,
             "isChtSingleOffer": false,
             "isDetailForbidden": false
         },
@@ -1226,187 +973,571 @@
             "abTestValueInfo": {}
         },
         "componentType": "page",
-        "marketScene": "sjyx",
+        "marketScene": "default",
         "images": [
             {
-                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.220x220.jpg",
-                "imageURI": "img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.jpg",
-                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.search.jpg",
-                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.summ.jpg",
-                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.310x310.jpg",
-                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN011T0xlg1y951u14HI9_!!2212313476535-0-cib.jpg"
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01nxEVvK2GmcLHMz6wR_!!2213969359058-0-cib.jpg"
             },
             {
-                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.220x220.jpg",
-                "imageURI": "img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.jpg",
-                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.search.jpg",
-                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.summ.jpg",
-                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.310x310.jpg",
-                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01mHgsvu1y9520DkfAp_!!2212313476535-0-cib.jpg"
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01NgiQqL2GmcL9mkvNX_!!2213969359058-0-cib.jpg"
             },
             {
-                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.220x220.jpg",
-                "imageURI": "img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.jpg",
-                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.search.jpg",
-                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.summ.jpg",
-                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.310x310.jpg",
-                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01FgOOck1y952290Roj_!!2212313476535-0-cib.jpg"
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN0102p60H2GmcLIH49wc_!!2213969359058-0-cib.jpg"
             },
             {
-                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.220x220.jpg",
-                "imageURI": "img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.jpg",
-                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.search.jpg",
-                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.summ.jpg",
-                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.310x310.jpg",
-                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01xqYcOF1y95228zRRe_!!2212313476535-0-cib.jpg"
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN011fs3jl2GmcLDTcWot_!!2213969359058-0-cib.jpg"
             },
             {
-                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.220x220.jpg",
-                "imageURI": "img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.jpg",
-                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.search.jpg",
-                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.summ.jpg",
-                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.310x310.jpg",
-                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01HRBkkv1y951r0yPuS_!!2212313476535-0-cib.jpg"
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01vw8OCA2GmcLAn8fpO_!!2213969359058-0-cib.jpg"
             },
             {
-                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.220x220.jpg",
-                "imageURI": "img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.jpg",
-                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.search.jpg",
-                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.summ.jpg",
-                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.310x310.jpg",
-                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.jpg"
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.jpg"
             },
             {
-                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.220x220.jpg",
-                "imageURI": "img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.jpg",
-                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.search.jpg",
-                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.summ.jpg",
-                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.310x310.jpg",
-                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.jpg"
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.jpg"
             }
         ],
         "isActHottimingOffer": false,
         "filterModel": [],
         "offerModelSign": {
             "isBuyerProtection": true,
-            "isWeChatSupply": true,
-            "isConsignMarketOffer": true,
-            "isCrossBorderOffer": true,
-            "isSupportMix": true,
-            "isOnePsale": true,
-            "isWholesaleOffer": true,
+            "isSkuTradeSupported": true,
+            "isSearchOffer": true,
             "hasFreightTemplate": true,
-            "isRangePriceSku": true,
+            "isAlipaySupported": true,
+            "isGpfOffer": true,
+            "isSsbxsfh": true,
             "isGovCouponOfferInOD": false,
-            "isYtdfOffer": true,
             "hasSearchPicture": true,
-            "isPreSaleOffer": true,
-            "isTtptOffer": true,
             "hasWhitePicInOffer": true,
             "sevenDaysRefund": true,
-            "hasOrder": true,
-            "isTbDistributionOffer": true,
-            "isToKuaiShou": true,
-            "isAegisTrade": true,
-            "isToTikTok": true,
-            "isSearchOffer": true,
-            "isCBDistribution": true,
-            "isEssxsfh": true,
-            "isZeroWholesaleOffer": true,
-            "isAlipaySupported": true,
-            "isBBuyerOffer": true,
-            "isYuanbaoadOffer": true,
-            "isYjbyOffer": true,
-            "isUmp": true,
             "isSupportStock": true,
+            "isImportOffer": true,
+            "isTbDistributionOffer": true,
+            "isAegisTrade": true,
             "isSupportVideo": true,
             "hasSendGoodsAddress": true
         },
         "topBarModel": [],
         "shareModel": [],
         "mixModel": {
-            "isSupportMix": true,
-            "mixOneForSale": false,
-            "mixNumber": 80,
-            "mixAmount": 100
+            "isSupportMix": false,
+            "mixOneForSale": false
         },
         "operateDisplayStatus": "ORDER_NOW",
         "reserveData": {},
         "skuModel": {
             "skuProps": [
                 {
-                    "fid": 1234,
-                    "prop": "规格",
+                    "fid": 3216,
+                    "prop": "颜色",
                     "value": [
                         {
-                            "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01Vx4FBI1y9521MGKD1_!!2212313476535-0-cib.jpg",
-                            "name": "单色"
+                            "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01L9hDAg2GmcL919tB4_!!2213969359058-0-cib.jpg",
+                            "name": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色"
                         },
                         {
-                            "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01VtNVSE1y952EJlkLi_!!2212313476535-0-cib.jpg",
-                            "name": "混色"
+                            "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01u7JKaA2GmcLAnWdl7_!!2213969359058-0-cib.jpg",
+                            "name": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色"
+                        }
+                    ]
+                },
+                {
+                    "fid": 2060,
+                    "prop": "内存容量",
+                    "value": [
+                        {
+                            "name": "16G内存+512G固态硬盘"
+                        },
+                        {
+                            "name": "16G内存+256G固态硬盘"
+                        },
+                        {
+                            "name": "16G内存+1024G固态硬盘"
+                        },
+                        {
+                            "name": "16G内存+无硬盘"
+                        },
+                        {
+                            "name": "12G内存+无硬盘"
+                        },
+                        {
+                            "name": "12G内存+128G固态硬盘"
+                        },
+                        {
+                            "name": "12G内存+256G固态硬盘"
+                        },
+                        {
+                            "name": "12G内存+512G固态硬盘"
+                        },
+                        {
+                            "name": "12G内存+1024G固态硬盘"
+                        },
+                        {
+                            "name": "8G内存+无硬盘"
                         }
                     ]
                 }
             ],
             "skuInfoMap": {
-                "混色": {
-                    "specId": "640f1b1e48778ea38313d775a8c6826c",
-                    "specAttrs": "混色",
-                    "saleCount": 1891,
-                    "discountPrice": "1.23",
-                    "canBookCount": 9862592,
-                    "skuId": 4832076325279,
-                    "isPromotionSku": true
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+1024G固态硬盘": {
+                    "specId": "55b0537a17e7c026c3b56c991794d217",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+1024G固态硬盘",
+                    "price": "1788.00",
+                    "saleCount": 0,
+                    "discountPrice": "1788.00",
+                    "canBookCount": 49,
+                    "skuId": 5061750351401,
+                    "isPromotionSku": false
                 },
-                "单色": {
-                    "specId": "b5f88e8c9ddfb9b24f449d44e1916cd2",
-                    "specAttrs": "单色",
-                    "saleCount": 7102,
-                    "discountPrice": "1.23",
-                    "canBookCount": 988994897,
-                    "skuId": 4991120863990,
-                    "isPromotionSku": true
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+256G固态硬盘": {
+                    "specId": "a2b5e41e1219e7b1e15f5c8870b48298",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+256G固态硬盘",
+                    "price": "1488.00",
+                    "saleCount": 0,
+                    "discountPrice": "1488.00",
+                    "canBookCount": 49,
+                    "skuId": 5061750351400,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;8G内存+无硬盘": {
+                    "specId": "c8d7d558aef3ec9be7f0845e2420bb1d",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;8G内存+无硬盘",
+                    "price": "1058.00",
+                    "saleCount": 0,
+                    "discountPrice": "1058.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351418,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+1024G固态硬盘": {
+                    "specId": "4ec6f9e91001e98fdf23bed15ebbb60a",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+1024G固态硬盘",
+                    "price": "1708.00",
+                    "saleCount": 0,
+                    "discountPrice": "1708.00",
+                    "canBookCount": 49,
+                    "skuId": 5061750351407,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+无硬盘": {
+                    "specId": "b9ff0c203981411e8082e11fadbb4db1",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+无硬盘",
+                    "price": "1288.00",
+                    "saleCount": 0,
+                    "discountPrice": "1288.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351412,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+256G固态硬盘": {
+                    "specId": "888c327ab6f4ee8f9b2cc38f552ce154",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+256G固态硬盘",
+                    "price": "1488.00",
+                    "saleCount": 0,
+                    "discountPrice": "1488.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351410,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+1024G固态硬盘": {
+                    "specId": "bf4da01638b2a0580bf0881dac85a3e7",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+1024G固态硬盘",
+                    "price": "1708.00",
+                    "saleCount": 0,
+                    "discountPrice": "1708.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351417,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+128G固态硬盘": {
+                    "specId": "188d7b6d6619e7f0b99fc423ec251f3c",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+128G固态硬盘",
+                    "price": "1338.00",
+                    "saleCount": 0,
+                    "discountPrice": "1338.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351404,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+128G固态硬盘": {
+                    "specId": "f35046911ca6634e2cb192cbee1d5a7b",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+128G固态硬盘",
+                    "price": "1338.00",
+                    "saleCount": 0,
+                    "discountPrice": "1338.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351414,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+512G固态硬盘": {
+                    "specId": "98bdb9d716909888f794bc058f09f981",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+512G固态硬盘",
+                    "price": "1508.00",
+                    "saleCount": 0,
+                    "discountPrice": "1508.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351416,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+无硬盘": {
+                    "specId": "00c627220bb5e9eefb79112df300050b",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+无硬盘",
+                    "price": "1288.00",
+                    "saleCount": 0,
+                    "discountPrice": "1288.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351402,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+无硬盘": {
+                    "specId": "1caa71b5e62a8154fa1734d44b81295f",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+无硬盘",
+                    "price": "1188.00",
+                    "saleCount": 0,
+                    "discountPrice": "1188.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351413,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+1024G固态硬盘": {
+                    "specId": "dd089ec68b649f9c04c2d7dc2004a666",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+1024G固态硬盘",
+                    "price": "1788.00",
+                    "saleCount": 0,
+                    "discountPrice": "1788.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351411,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;8G内存+无硬盘": {
+                    "specId": "94c11ab132f9e1d7ba7d3f605da382a8",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;8G内存+无硬盘",
+                    "price": "1188.00",
+                    "saleCount": 0,
+                    "discountPrice": "1188.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351408,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+512G固态硬盘": {
+                    "specId": "ca45152e9cf94062d9231f3638c6622b",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+512G固态硬盘",
+                    "price": "1588.00",
+                    "saleCount": 0,
+                    "discountPrice": "1588.00",
+                    "canBookCount": 47,
+                    "skuId": 5061750351399,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+512G固态硬盘": {
+                    "specId": "5f9c19b1f3a0c789559007b10f30db0d",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+512G固态硬盘",
+                    "price": "1508.00",
+                    "saleCount": 0,
+                    "discountPrice": "1508.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351406,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+无硬盘": {
+                    "specId": "d5e3fefd4158be681da653739a3515d9",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+无硬盘",
+                    "price": "1188.00",
+                    "saleCount": 0,
+                    "discountPrice": "1188.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351403,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+512G固态硬盘": {
+                    "specId": "21df1f381c471830b46e51d14d7e526d",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+512G固态硬盘",
+                    "price": "1588.00",
+                    "saleCount": 0,
+                    "discountPrice": "1588.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351409,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+256G固态硬盘": {
+                    "specId": "a5b3b9e0146d000ab28041d30ffde55b",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+256G固态硬盘",
+                    "price": "1408.00",
+                    "saleCount": 0,
+                    "discountPrice": "1408.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351405,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+256G固态硬盘": {
+                    "specId": "5bbc77d17673849f1d9be2a7edd6a409",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+256G固态硬盘",
+                    "price": "1408.00",
+                    "saleCount": 0,
+                    "discountPrice": "1408.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351415,
+                    "isPromotionSku": false
                 }
             },
-            "skuPriceScale": "1.23-1.57",
+            "skuPriceScale": "1058.00-1788.00",
             "skuInfoMapOriginal": {
-                "混色": {
-                    "specId": "640f1b1e48778ea38313d775a8c6826c",
-                    "specAttrs": "混色",
-                    "saleCount": 1891,
-                    "canBookCount": 9862592,
-                    "skuId": 4832076325279,
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+1024G固态硬盘": {
+                    "specId": "55b0537a17e7c026c3b56c991794d217",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+1024G固态硬盘",
+                    "price": "1788.00",
+                    "saleCount": 0,
+                    "discountPrice": "1788.00",
+                    "canBookCount": 49,
+                    "skuId": 5061750351401,
                     "isPromotionSku": false
                 },
-                "单色": {
-                    "specId": "b5f88e8c9ddfb9b24f449d44e1916cd2",
-                    "specAttrs": "单色",
-                    "saleCount": 7102,
-                    "canBookCount": 988994897,
-                    "skuId": 4991120863990,
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+256G固态硬盘": {
+                    "specId": "a2b5e41e1219e7b1e15f5c8870b48298",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+256G固态硬盘",
+                    "price": "1488.00",
+                    "saleCount": 0,
+                    "discountPrice": "1488.00",
+                    "canBookCount": 49,
+                    "skuId": 5061750351400,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;8G内存+无硬盘": {
+                    "specId": "c8d7d558aef3ec9be7f0845e2420bb1d",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;8G内存+无硬盘",
+                    "price": "1058.00",
+                    "saleCount": 0,
+                    "discountPrice": "1058.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351418,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+1024G固态硬盘": {
+                    "specId": "4ec6f9e91001e98fdf23bed15ebbb60a",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+1024G固态硬盘",
+                    "price": "1708.00",
+                    "saleCount": 0,
+                    "discountPrice": "1708.00",
+                    "canBookCount": 49,
+                    "skuId": 5061750351407,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+无硬盘": {
+                    "specId": "b9ff0c203981411e8082e11fadbb4db1",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+无硬盘",
+                    "price": "1288.00",
+                    "saleCount": 0,
+                    "discountPrice": "1288.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351412,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+256G固态硬盘": {
+                    "specId": "888c327ab6f4ee8f9b2cc38f552ce154",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+256G固态硬盘",
+                    "price": "1488.00",
+                    "saleCount": 0,
+                    "discountPrice": "1488.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351410,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+1024G固态硬盘": {
+                    "specId": "bf4da01638b2a0580bf0881dac85a3e7",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+1024G固态硬盘",
+                    "price": "1708.00",
+                    "saleCount": 0,
+                    "discountPrice": "1708.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351417,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+128G固态硬盘": {
+                    "specId": "188d7b6d6619e7f0b99fc423ec251f3c",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+128G固态硬盘",
+                    "price": "1338.00",
+                    "saleCount": 0,
+                    "discountPrice": "1338.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351404,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+128G固态硬盘": {
+                    "specId": "f35046911ca6634e2cb192cbee1d5a7b",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+128G固态硬盘",
+                    "price": "1338.00",
+                    "saleCount": 0,
+                    "discountPrice": "1338.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351414,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+512G固态硬盘": {
+                    "specId": "98bdb9d716909888f794bc058f09f981",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+512G固态硬盘",
+                    "price": "1508.00",
+                    "saleCount": 0,
+                    "discountPrice": "1508.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351416,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+无硬盘": {
+                    "specId": "00c627220bb5e9eefb79112df300050b",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+无硬盘",
+                    "price": "1288.00",
+                    "saleCount": 0,
+                    "discountPrice": "1288.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351402,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+无硬盘": {
+                    "specId": "1caa71b5e62a8154fa1734d44b81295f",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+无硬盘",
+                    "price": "1188.00",
+                    "saleCount": 0,
+                    "discountPrice": "1188.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351413,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+1024G固态硬盘": {
+                    "specId": "dd089ec68b649f9c04c2d7dc2004a666",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+1024G固态硬盘",
+                    "price": "1788.00",
+                    "saleCount": 0,
+                    "discountPrice": "1788.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351411,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;8G内存+无硬盘": {
+                    "specId": "94c11ab132f9e1d7ba7d3f605da382a8",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;8G内存+无硬盘",
+                    "price": "1188.00",
+                    "saleCount": 0,
+                    "discountPrice": "1188.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351408,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+512G固态硬盘": {
+                    "specId": "ca45152e9cf94062d9231f3638c6622b",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;16G内存+512G固态硬盘",
+                    "price": "1588.00",
+                    "saleCount": 0,
+                    "discountPrice": "1588.00",
+                    "canBookCount": 47,
+                    "skuId": 5061750351399,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+512G固态硬盘": {
+                    "specId": "5f9c19b1f3a0c789559007b10f30db0d",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+512G固态硬盘",
+                    "price": "1508.00",
+                    "saleCount": 0,
+                    "discountPrice": "1508.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351406,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+无硬盘": {
+                    "specId": "d5e3fefd4158be681da653739a3515d9",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+无硬盘",
+                    "price": "1188.00",
+                    "saleCount": 0,
+                    "discountPrice": "1188.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351403,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+512G固态硬盘": {
+                    "specId": "21df1f381c471830b46e51d14d7e526d",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;16G内存+512G固态硬盘",
+                    "price": "1588.00",
+                    "saleCount": 0,
+                    "discountPrice": "1588.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351409,
+                    "isPromotionSku": false
+                },
+                "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+256G固态硬盘": {
+                    "specId": "a5b3b9e0146d000ab28041d30ffde55b",
+                    "specAttrs": "N5095-带指纹带背光-A壳金属-带RJ45接口-银色&gt;12G内存+256G固态硬盘",
+                    "price": "1408.00",
+                    "saleCount": 0,
+                    "discountPrice": "1408.00",
+                    "canBookCount": 50,
+                    "skuId": 5061750351405,
+                    "isPromotionSku": false
+                },
+                "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+256G固态硬盘": {
+                    "specId": "5bbc77d17673849f1d9be2a7edd6a409",
+                    "specAttrs": "J4125-不带指纹不带背光-A壳金属-带RJ45接口-银色&gt;12G内存+256G固态硬盘",
+                    "price": "1408.00",
+                    "saleCount": 0,
+                    "discountPrice": "1408.00",
+                    "canBookCount": 0,
+                    "skuId": 5061750351415,
                     "isPromotionSku": false
                 }
             },
-            "skuPriceScaleOriginal": "1.25-1.60"
+            "skuPriceScaleOriginal": "1058.0-1788.0"
         },
         "offerBaseInfo": {
-            "sellerUserId": 2212313476535,
-            "sellerLoginId": "智拓日用品",
-            "sellerMemberId": "b2b-2212313476535b6516",
-            "offerId": 669775995141,
+            "sellerUserId": 2213969359058,
+            "sellerLoginId": "锐凯达88",
+            "sellerMemberId": "b2b-2213969359058c357a",
+            "offerId": 683253049962,
             "buyerUserId": 0,
             "buyerLoginId": 0,
-            "sellerWinportUrl": "https://shop6i88195f90534.1688.com",
-            "catId": 201340411,
-            "tradeTemplateId": "[]"
+            "sellerWinportUrl": "https://shop285157971m405.1688.com",
+            "catId": 702,
+            "tradeTemplateId": "[0]"
         },
         "sellerSign": {
             "isIndustrySeller": false,
-            "isSlsj": true,
+            "isSlsj": false,
             "signs": {
                 "isIndustrySeller": false,
-                "isSlsj": true,
+                "isSlsj": false,
                 "isChtMember": false,
                 "isTp": true,
                 "isEaseBuyDealer": false
@@ -1415,7 +1546,7 @@
             "isChtMember": false
         },
         "canIgnoreConsignRelation": false,
-        "businessType": "slsj"
+        "businessType": "default"
     },
     "hasMoreModules": true,
     "modules": [
