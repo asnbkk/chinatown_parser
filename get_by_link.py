@@ -82,13 +82,13 @@ def get_prod_by_link(url):
     
     product['title'] = res['globalData']['tempModel']['offerTitle']
     # print(product)
-    return(json.dumps(product, indent=4, ensure_ascii=True))
+    return(json.dumps(product, indent=4, ensure_ascii=False))
     # return res
 
 
 if __name__ == '__main__':
-    # url = sys.argv[1]
-    url = 'https://detail.1688.com/offer/683253049962.html?spm=a26352.23326140a26352.offerlist.6.67821e62cNHB58'
+    url = sys.argv[1]
+    # url = 'https://detail.1688.com/offer/683253049962.html?spm=a26352.23326140a26352.offerlist.6.67821e62cNHB58'
     print(get_prod_by_link(url))
     # res = get_prod_by_link(url)
     # with open("sample_1.json", "w") as outfile:
