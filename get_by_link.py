@@ -8,7 +8,7 @@ def get_details(details):
     return [{'name': d['name'], 'values': d['values']} for d in details]
 
 def get_prod_by_link(url):
-    # url = sys.argv[1]
+    url = sys.argv[1]
     session = requests.Session()
     response = session.get(
             url, 
@@ -37,14 +37,15 @@ def get_prod_by_link(url):
         })
         product['images'] = imageList
     
+    # print(product)
     product['title'] = res['globalData']['tempModel']['offerTitle']
-    # return(json.dumps(product, indent=4, ensure_ascii=True))
+    return(json.dumps(product, indent=4, ensure_ascii=True))
 
 
 if __name__ == '__main__':
     url = sys.argv[1]
     # url = 'https://detail.1688.com/offer/692256621725.html?spm=a26352.13672862.offerlist.30.714b32c0fwVgA8&cosite=-&tracelog=p4p&_p_isad=1&clickid=bd938112b7744611977c680aef698af6&sessionid=893d0c70911a57cdd0f7b3b1621d375c'
-    # print(get_prod_by_link(url))
-    res = get_prod_by_link(url)
+    print(get_prod_by_link(url))
+    # res = get_prod_by_link(url)
     # with open("sample_2.json", "w") as outfile:
         # outfile.write(json.dumps(res, indent=4, ensure_ascii=False))
