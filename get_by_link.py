@@ -29,7 +29,7 @@ def get_variats(props, attrs, sku_model):
                     'saleCount': prod['saleCount'], 
                     'canBookCount': prod['canBookCount']}
                 attr_list.append(res_)
-        variant_list.append({**i, 'subvariant': attr_list})
+        variant_list.append({**i, 'subvariants': attr_list})
     return variant_list
 
 def get_details(details):
@@ -90,6 +90,6 @@ if __name__ == '__main__':
     url = sys.argv[1]
     # url = 'https://detail.1688.com/offer/683253049962.html?spm=a26352.23326140a26352.offerlist.6.67821e62cNHB58'
     print(get_prod_by_link(url))
-    # res = get_prod_by_link(url)
-    # with open("sample_1.json", "w") as outfile:
-        # outfile.write(json.dumps(res, indent=4, ensure_ascii=False))
+    res = get_prod_by_link(url)
+    with open("sample_1.json", "w") as outfile:
+        outfile.write(json.dumps(res, indent=4, ensure_ascii=False))
