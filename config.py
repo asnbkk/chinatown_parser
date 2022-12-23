@@ -1,1 +1,0 @@
-PROXY = 'marinaneymar13:VxPkMUVIHL@212.116.244.228:49155'
