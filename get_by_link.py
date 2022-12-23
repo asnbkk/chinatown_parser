@@ -1,8 +1,8 @@
 import requests
 import json
-import random
 from utils import get_random_header
 import sys 
+from config import PROXY
 
 def get_variats(props, attrs, sku_model):
     variant_list = []
@@ -35,13 +35,18 @@ def get_variats(props, attrs, sku_model):
 def get_details(details):
     return [{'name': d['name'], 'values': d['values']} for d in details]
 
-def get_prod_by_link(url):
+def get_prod_by_link(url, PROXY=None):
     # url = sys.argv[1]
     session = requests.Session()
+    PROXY = {'https': f'http://{PROXY}',
+            'http': f'http://{PROXY}'}
+
     response = session.get(
-            url, 
-            verify=False, 
-            headers=get_random_header()).text
+        url, 
+        verify=False, 
+        headers=get_random_header(),
+        proxies=PROXY).text
+
     body = response.split('<script>')[6]
     start, end = 'window.__INIT_DATA=', '</script>'
     res = json.loads(body.split(start)[-1].split(end)[0])
@@ -89,7 +94,6 @@ def get_prod_by_link(url):
 if __name__ == '__main__':
     url = sys.argv[1]
     # url = 'https://detail.1688.com/offer/683253049962.html?spm=a26352.23326140a26352.offerlist.6.67821e62cNHB58'
-    print(get_prod_by_link(url))
-    res = get_prod_by_link(url)
-    with open("sample_1.json", "w") as outfile:
-        outfile.write(json.dumps(res, indent=4, ensure_ascii=False))
+    res = get_prod_by_link(url, PROXY)
+    # with open("sample_1.json", "w") as outfile:
+        # outfile.write(json.dumps(res, indent=4, ensure_ascii=False))
