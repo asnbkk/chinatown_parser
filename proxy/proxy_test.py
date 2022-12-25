@@ -19,7 +19,7 @@ while True:
     # print(f'Using proxy: {proxy} with speed {get_random_proxy()[1]}')
     try:
         with requests.Session() as session:
-            session.proxies = PROXY
+            # session.proxies = PROXY
             r = session.get('http://ip-api.com/json', timeout=30)
             print(json.dumps(r.json(), indent=2))
     except Exception as e:

@@ -26,7 +26,7 @@ firefox_options.set_preference("network.proxy.http_port", int(proxy.http_proxy.s
 # firefox_options.headless = True
 
 driver = webdriver.Firefox(options=firefox_options)
-# driver.set_window_size(1920, 1080)
+driver.set_window_size(1920, 1080)
 
 def get_proper_tab(tabs):
     for index, tab in enumerate(tabs):
