@@ -11,7 +11,7 @@ def get_random_proxy():
 
 while True:
     # proxy = get_random_proxy()[0]
-    proxy = 'marinaneymar13:VxPkMUVIHL@212.116.244.228:49155'
+    proxy = '51.79.50.22:9300   '
 
     PROXY = {'https': f'https://{proxy}',
             'http': f'http://{proxy}'}
@@ -19,7 +19,7 @@ while True:
     # print(f'Using proxy: {proxy} with speed {get_random_proxy()[1]}')
     try:
         with requests.Session() as session:
-            # session.proxies = PROXY
+            session.proxies = PROXY
             r = session.get('http://ip-api.com/json', timeout=30)
             print(json.dumps(r.json(), indent=2))
     except Exception as e:
