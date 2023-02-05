@@ -1,42 +1,53 @@
 import requests
 from utils import get_random_header
 
-header = get_random_header()
+# header = get_random_header()
 
-URL = 'https://h5api.m.1688.com/h5/mtop.mbox.fc.common.gateway/1.0/?jsv=2.4.11&appKey=12574478&t=1675236535794&sign=67d3e64e911623ea31c7d18c37b99fdf&api=mtop.mbox.fc.common.gateway&v=1.0&type=jsonp&isSec=0&timeout=20000&dataType=jsonp&callback=mtopjsonp6&data={"fcGroup":"offer-cbu","fcName":"offerdetail-service","fcArgs":"{\"serviceName\":\"offerSatisfactionService\",\"params\":{\"memberId\":\"b2b-285692572092e25\",\"sellerId\":2856925720,\"offerId\":611079337733,\"isSignedForTm\":false}}"}'
+URL = 'https://h5api.m.1688.com/h5/mtop.mbox.fc.common.gateway/1.0/?jsv=2.4.11&appKey=12574478&t=1675580836117&sign=1a6fa5c789e55246f7bf48885250f881&api=mtop.mbox.fc.common.gateway&v=1.0&type=jsonp&isSec=0&timeout=20000&dataType=jsonp&callback=mtopjsonp5&data={"fcGroup":"offer-cbu","fcName":"offerdetail-service","fcArgs":"{\"serviceName\":\"offerSatisfactionService\",\"params\":{\"memberId\":\"b2b-2256983270\",\"sellerId\":2256983270,\"offerId\":656994546410,\"isSignedForTm\":false}}"}'
 
 cookies = {
     '__cn_logon__': "false",
     '__cn_logon__.sig': "i6UL1cVhdIpbPPA_02yGiEyKMeZR2hBfnaoYK1CcrF4",
-    '_csrf_token': "1675236229143",
-    '_m_h5_tk': "c0002f98fd0317bb8473b94fdc5eda88_1675246635569",
-    '_m_h5_tk_enc': "60e04f4c823aef0741aca44845b42a86",
-    '_tb_token_': "e17148e3007e3",
+    '_m_h5_c': "3ffea5c1c55b7176ca9c1a0465f0a6f8_1675531887824;f2e64eed8293b64664ac4a82b9e18648",
+    '_csrf_token': "1675522233271",
+    '_m_h5_tk': "32c134aba3ca7504f05fb93b1cd41463_1675589407504",
+    '_m_h5_tk_enc': "0c2868388bc0020ae59d40cb3889a6b2",
+    '_tb_token_': "e43e73eeea815",
     'ali_ab': "5.251.148.84.1671928062683.6",
     'ali-ss': "eyJ1c2VySWQiOm51bGwsImxvZ2luSWQiOm51bGwsInNpZCI6bnVsbCwiZWNvZGUiOm51bGwsIm1lbWJlcklkIjpudWxsLCJfZXhwaXJlIjoxNjc1MzIyNzA1OTU1LCJfbWF4QWdlIjo4NjQwMDAwMH0=",
     'ali-ss.sig': "Rgn5tdbxmRnFM7OBC6SOcpksX7fgUr134Ba_eY0XuhY",
-    'alicnweb': "touch_tb_at=1673796258038",
+    'alicnweb': "touch_tb_at=1675580785032",
     'cna': "sGULHEGFlRkCAV+Nj+XSYh8G",
-    'cookie2': "1252342620651bce4a91e8cbbeb522de",
+    'cookie2': "1a8521126d6936f204cfe1a920547bf9",
     'ctoken': "XQAFwoMxd1qXQllH7iAcnaga",
-    'isg': "BH19A79ywkY_SWb02N0pcvrij993GrFsp6qtvj_CuVQDdp2oB2rBPEsgIDIwbckk",
-    'keywordsHistory': "bracelet",
-    'l': "fBjmfrLuTKkf64yX4Ofanurza77OSIOYYuPzaNbMi9fP_qCe5EmNW6JwTV8wC36NFsMXR3rfNdDXBeYBcnmF7h2Zb4_3OWMmndLHR35..",
-    't': "7af74fead77d282acc98ecf894e687a2",
-    'tfstk': "cbCFBVD_TQj_3vfwGCAP3BPAc0wdZ5slvf-wKu_-_h4L7epGiziJSkqH7HuZqpf..",
+    'isg': "BIqKeMTG3Rply1HtM5xmuxHz2HYsew7VmkP6uRTDNl1rxyqB_Ate5dAx16sbLIZt",
+    'keywordsHistory': "toy",
+    'l': "fBjmfrLuTKkf61YFfOfanurza77OSIOYYuPzaNbMi9fP_zCM50rfW6Jh_cTHC36NFsNkR3-uIOvDBeYBcnX7m72YBXViYDkmndLHR35....",
+    't': "ce18c59350caa7edf285964f2b093c7c",
+    'tfstk': "c4ARBjfj7qURwIB5u_H0LEKtTaEdZtURczsU9C-v3YbT1MFOitAM667nFwIN2qC..",
     'x5secdata': "xbb03ea73843d5ce8b83c088f4546030931675236536a3362248a1620252218abczc2eaa__bx__h5api.m.1688.com:443/h5/mtop.alibaba.alisite.cbu.server.moduleasyncservice/1.0",
     'xlly_s': "1"}
 
-PROXY = '03.69.149.19:80'
+# PROXY = '03.69.149.19:80'
 
-PROXY = {'https': f'http://{PROXY}',
-        'http': f'http://{PROXY}'}
-
+# PROXY = {'https': f'http://{PROXY}',
+#         'http': f'http://{PROXY}'}
+HEADER = {
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Accept-Language': 'en-US,en;q=0.5',
+    'Connection': 'keep-alive',
+    'Host': 'h5api.m.1688.com',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'cross-site',
+    'Upgrade-Insecure-Requests': '1',
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+}
 r = requests.get(
     URL, 
     cookies=cookies,
-    headers=header,
-    verify=False,
+    headers=HEADER
 )
 
 print(r.text)

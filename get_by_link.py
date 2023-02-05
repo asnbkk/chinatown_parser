@@ -44,8 +44,7 @@ def get_prod_by_link(url, PROXY=None):
     response = session.get(
         url, 
         verify=False, 
-        headers=get_random_header(),
-        proxies=PROXY).text
+        headers=get_random_header()).text
 
     body = response.split('<script>')[6]
     start, end = 'window.__INIT_DATA=', '</script>'
