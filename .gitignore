@@ -4,3 +4,4 @@ sample_1.json
 sample_2.json
 sample_3.json
 geckodriver.log
+__pycache__

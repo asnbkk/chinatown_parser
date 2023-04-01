@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.proxy import Proxy, ProxyType
-from config import PROXY
+from proxy.generate_proxy import PROXY
 import sys
 import time
 from utils import get_random_header

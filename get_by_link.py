@@ -1,7 +1,7 @@
 import requests
 import json
 from utils import get_random_header
-from config import get_proxy
+from proxy.generate_proxy import get_proxy
 import sys
 
 
@@ -38,14 +38,14 @@ def get_details(details):
     return [{'name': d['name'], 'values': d['values']} for d in details]
 
 
-def get_prod_by_link(url):
+def get_prod_by_link(url, CERT_PATH):
     # url = sys.argv[1]
     session = requests.Session()
 
     # set proxy here
     response = session.get(
         url,
-        verify=False,
+        verify=CERT_PATH,
         headers=get_random_header(),
         proxies=get_proxy(),
         timeout=10).text
@@ -96,9 +96,10 @@ def get_prod_by_link(url):
 
 
 if __name__ == '__main__':
+    CERT_PATH = './proxy/zyte-proxy-ca.crt'
     url = sys.argv[1]
     # url = 'https://detail.1688.com/offer/609602652530.html?spm=a26352.13672862.offerlist.33.38221e62IWOkdJ&cosite=-&tracelog=p4p&_p_isad=1&clickid=3bd2518aaed2456d98343f6429a046b4&sessionid=041a0a524fdef3f3136060143ee800cb'
-    res = get_prod_by_link(url)
+    res = get_prod_by_link(url, CERT_PATH)
     print(res)
     # with open("sample_1.json", "w") as outfile:
     # outfile.write(json.dumps(res, indent=4, ensure_ascii=False))
