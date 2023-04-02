@@ -96,9 +96,12 @@ def get_prod_by_link(url, CERT_PATH):
 
 
 if __name__ == '__main__':
-    CERT_PATH = './proxy/zyte-proxy-ca.crt'
-    url = sys.argv[1]
+    #CERT_PATH = './proxy/zyte-proxy-ca.crt'
     # url = 'https://detail.1688.com/offer/609602652530.html?spm=a26352.13672862.offerlist.33.38221e62IWOkdJ&cosite=-&tracelog=p4p&_p_isad=1&clickid=3bd2518aaed2456d98343f6429a046b4&sessionid=041a0a524fdef3f3136060143ee800cb'
+
+    url = sys.argv[1]
+    CERT_PATH = sys.argv[2]
+
     res = get_prod_by_link(url, CERT_PATH)
     print(res)
     # with open("sample_1.json", "w") as outfile:
