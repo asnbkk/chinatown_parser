@@ -103,6 +103,6 @@ if __name__ == '__main__':
     CERT_PATH = sys.argv[2]
 
     res = get_prod_by_link(url, CERT_PATH)
-    # print(res)
+    print(res)
     # with open("sample_1.json", "w") as outfile:
     # outfile.write(json.dumps(res, indent=4, ensure_ascii=False))
