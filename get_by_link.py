@@ -6,6 +6,16 @@ import sys
 
 
 def get_variats(props, attrs, sku_model):
+    """
+    getting variants info
+    such as price, name, sale_count and stock_amount
+
+    :param props:
+    :param attrs:
+    :param sku_model:
+
+    :return:
+    """
     variant_list = []
     for i in props[0]["value"]:
         attr_list = []
@@ -14,9 +24,10 @@ def get_variats(props, attrs, sku_model):
                 prod = attrs[attr]
                 try:
                     price = prod["price"]
-                except:
+                except KeyError as error:
+                    print(error)
                     # seems to be default price for all vars
-                    # todo: price can be shit -
+                    # todo: price can be shit
                     price = sku_model["skuPriceScale"]
 
                 if "-" in price:
@@ -36,6 +47,9 @@ def get_variats(props, attrs, sku_model):
 
 
 def get_details(details):
+    """
+    returns details at the bottom of the page
+    """
     return [{"name": d["name"], "values": d["values"]} for d in details]
 
 
@@ -71,9 +85,11 @@ def get_prod_by_link(url, CERT_PATH):
         try:
             product["variant_name"] = props[0]["prop"]
             product["subvariant_name"] = props[1]["prop"]
-        except:
+        except KeyError as error:
+            print(error)
             product["subvariant_name"] = props[0]["prop"]
             product["variant_name"] = "default"
+
     except KeyError as exception:
         print(exception)
         print("no sku props")
@@ -96,29 +112,32 @@ def get_prod_by_link(url, CERT_PATH):
             }
         ]
 
-    for key, value in res["data"].items():
-        if type(value) is not bool and type(value) is not list:
+    for _, value in res["data"].items():
+        if not isinstance(value, bool) and not isinstance(value, list):
             try:
                 # if value['componentType'] == '@ali/tdmod-od-pc-offer-price':
-
                 if value["componentType"] == "@ali/tdmod-od-pc-attribute-new":
                     product["details"] = get_details(value["data"])
-            except KeyError or TypeError:
+            except KeyError as error:
+                print(error)
+                continue
+            except TypeError as error:
+                print(error)
                 continue
 
-    imageList = []
+    image_list = []
     for image in res["globalData"]["images"]:
         try:
-            imageList.append(
+            image_list.append(
                 {
                     "url": image["fullPathImageURI"],
                     "preview": image["size220x220ImageURI"],
                 }
             )
-        except:
-            print("no image")
-    product["images"] = imageList
+        except KeyError as error:
+            print(error)
 
+    product["images"] = image_list
     product["title"] = res["globalData"]["tempModel"]["offerTitle"]
     product["saled_count"] = res["globalData"]["tempModel"]["saledCount"]
     # print(product)
@@ -128,13 +147,13 @@ def get_prod_by_link(url, CERT_PATH):
 
 if __name__ == "__main__":
     CERT_PATH = "./proxy/zyte-proxy-ca.crt"
-    url = "https://detail.1688.com/offer/706710213777.html"
-    612579417533
+    # URL = "https://detail.1688.com/offer/706710213777.html"
+    # 612579417533
 
-    # url = sys.argv[1]
-    # CERT_PATH = sys.argv[2]
-    CERT_PATH = "./proxy/zyte-proxy-ca.crt"
-    res = get_prod_by_link(url, CERT_PATH)
+    URL = sys.argv[1]
+    CERT_PATH = sys.argv[2]
+    # CERT_PATH = "./proxy/zyte-proxy-ca.crt"
+    res = get_prod_by_link(URL, CERT_PATH)
     print(res)
     # with open("sample_1.json", "w") as outfile:
     # outfile.write(json.dumps(res, indent=4, ensure_ascii=False))
