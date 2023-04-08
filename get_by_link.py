@@ -146,7 +146,6 @@ def get_prod_by_link(url, CERT_PATH):
 
 
 if __name__ == "__main__":
-    CERT_PATH = "./proxy/zyte-proxy-ca.crt"
     # URL = "https://detail.1688.com/offer/706710213777.html"
     # 612579417533
 
