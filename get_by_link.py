@@ -96,7 +96,7 @@ def get_prod_by_link(url, CERT_PATH):
         product["variant_name"] = "default"
         product["subvariant_name"] = "default_1"
         # shit subvar price
-        sub_price = product["prices"]["skuRangePrices"]["price"]
+        sub_price = product["prices"]["skuRangePrices"][0]["price"]
         product["variants"] = [
             {
                 "imageUrl": "",
@@ -146,7 +146,7 @@ def get_prod_by_link(url, CERT_PATH):
 
 
 if __name__ == "__main__":
-    # URL = "https://detail.1688.com/offer/706710213777.html"
+    # URL = "https://detail.1688.com/offer/612579417533.html"
     # 612579417533
 
     URL = sys.argv[1]
