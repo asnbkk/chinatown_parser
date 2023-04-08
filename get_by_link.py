@@ -90,7 +90,7 @@ def get_prod_by_link(url, CERT_PATH):
 
     except Exception as exception:
         product["variant_name"] = "default"
-        product["subvariant_name"] = "default_1"
+        product["subvariant_name"] = "类型"
         # shit subvar price
         sub_price = product["prices"]["skuRangePrices"][0]["price"]
         product["variants"] = [
@@ -133,12 +133,12 @@ def get_prod_by_link(url, CERT_PATH):
 
 
 if __name__ == "__main__":
-    URL = "https://detail.1688.com/offer/612579417533.html"
+    # URL = "https://detail.1688.com/offer/612579417533.html"
     # 612579417533
 
-    # URL = sys.argv[1]
-    # CERT_PATH = sys.argv[2]
-    CERT_PATH = "./proxy/zyte-proxy-ca.crt"
+    URL = sys.argv[1]
+    CERT_PATH = sys.argv[2]
+    # CERT_PATH = "./proxy/zyte-proxy-ca.crt"
     result = get_prod_by_link(URL, CERT_PATH)
     print(result)
     # with open("sample_1.json", "w") as outfile:
