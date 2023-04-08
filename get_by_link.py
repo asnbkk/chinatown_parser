@@ -118,21 +118,14 @@ def get_prod_by_link(url, CERT_PATH):
                 continue
             except TypeError as error:
                 continue
-
     image_list = []
     for image in res["globalData"]["images"]:
         try:
-            image_list.append(
-                {
-                    "url": image["fullPathImageURI"],
-                    "preview": image["size220x220ImageURI"],
-                }
-            )
+            image_list.append({"url": image["fullPathImageURI"]})
         except KeyError as error:
             continue
 
     product["images"] = image_list
-    product["title"] = res["globalData"]["tempModel"]["offerTitle"]
     product["saled_count"] = res["globalData"]["tempModel"]["saledCount"]
     # print(product)
     return json.dumps(product, indent=4, ensure_ascii=False)
@@ -140,12 +133,12 @@ def get_prod_by_link(url, CERT_PATH):
 
 
 if __name__ == "__main__":
-    # URL = "https://detail.1688.com/offer/612579417533.html"
+    URL = "https://detail.1688.com/offer/612579417533.html"
     # 612579417533
 
-    URL = sys.argv[1]
-    CERT_PATH = sys.argv[2]
-    # CERT_PATH = "./proxy/zyte-proxy-ca.crt"
+    # URL = sys.argv[1]
+    # CERT_PATH = sys.argv[2]
+    CERT_PATH = "./proxy/zyte-proxy-ca.crt"
     result = get_prod_by_link(URL, CERT_PATH)
     print(result)
     # with open("sample_1.json", "w") as outfile:
