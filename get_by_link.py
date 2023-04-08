@@ -63,7 +63,7 @@ def get_prod_by_link(url, CERT_PATH):
         verify=CERT_PATH,
         headers=get_random_header(),
         proxies=get_proxy(),
-        timeout=10,
+        timeout=20,
     ).text
 
     body = response.split("<script>")[6]
@@ -152,7 +152,7 @@ if __name__ == "__main__":
     URL = sys.argv[1]
     CERT_PATH = sys.argv[2]
     # CERT_PATH = "./proxy/zyte-proxy-ca.crt"
-    res = get_prod_by_link(URL, CERT_PATH)
-    print(res)
+    result = get_prod_by_link(URL, CERT_PATH)
+    print(result)
     # with open("sample_1.json", "w") as outfile:
     # outfile.write(json.dumps(res, indent=4, ensure_ascii=False))
