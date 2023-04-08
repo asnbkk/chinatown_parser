@@ -25,7 +25,6 @@ def get_variats(props, attrs, sku_model):
                 try:
                     price = prod["price"]
                 except KeyError as error:
-                    print(error)
                     # seems to be default price for all vars
                     # todo: price can be shit
                     price = sku_model["skuPriceScale"]
@@ -86,13 +85,10 @@ def get_prod_by_link(url, CERT_PATH):
             product["variant_name"] = props[0]["prop"]
             product["subvariant_name"] = props[1]["prop"]
         except Exception as error:
-            print(error)
             product["subvariant_name"] = props[0]["prop"]
             product["variant_name"] = "default"
 
     except Exception as exception:
-        print(exception)
-        print("no sku props")
         product["variant_name"] = "default"
         product["subvariant_name"] = "default_1"
         # shit subvar price
@@ -119,10 +115,8 @@ def get_prod_by_link(url, CERT_PATH):
                 if value["componentType"] == "@ali/tdmod-od-pc-attribute-new":
                     product["details"] = get_details(value["data"])
             except KeyError as error:
-                print(error)
                 continue
             except TypeError as error:
-                print(error)
                 continue
 
     image_list = []
@@ -135,7 +129,7 @@ def get_prod_by_link(url, CERT_PATH):
                 }
             )
         except KeyError as error:
-            print(error)
+            continue
 
     product["images"] = image_list
     product["title"] = res["globalData"]["tempModel"]["offerTitle"]
@@ -146,12 +140,12 @@ def get_prod_by_link(url, CERT_PATH):
 
 
 if __name__ == "__main__":
-    # URL = "https://detail.1688.com/offer/612579417533.html"
+    URL = "https://detail.1688.com/offer/612579417533.html"
     # 612579417533
 
-    URL = sys.argv[1]
-    CERT_PATH = sys.argv[2]
-    # CERT_PATH = "./proxy/zyte-proxy-ca.crt"
+    # URL = sys.argv[1]
+    # CERT_PATH = sys.argv[2]
+    CERT_PATH = "./proxy/zyte-proxy-ca.crt"
     result = get_prod_by_link(URL, CERT_PATH)
     print(result)
     # with open("sample_1.json", "w") as outfile:
