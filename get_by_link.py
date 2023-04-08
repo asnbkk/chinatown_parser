@@ -85,12 +85,12 @@ def get_prod_by_link(url, CERT_PATH):
         try:
             product["variant_name"] = props[0]["prop"]
             product["subvariant_name"] = props[1]["prop"]
-        except KeyError as error:
+        except Exception as error:
             print(error)
             product["subvariant_name"] = props[0]["prop"]
             product["variant_name"] = "default"
 
-    except KeyError as exception:
+    except Exception as exception:
         print(exception)
         print("no sku props")
         product["variant_name"] = "default"
